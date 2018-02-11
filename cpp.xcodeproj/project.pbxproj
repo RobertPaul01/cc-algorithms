@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D5B856AE202E67B8006554F6 /* functions.cc in Sources */ = {isa = PBXBuildFile; fileRef = D5B856AC202E6570006554F6 /* functions.cc */; };
-		D5B856B9202FB08B006554F6 /* taskD.cc in Sources */ = {isa = PBXBuildFile; fileRef = D5B856B8202FB08B006554F6 /* taskD.cc */; };
+		D5B856BB202FC8AF006554F6 /* taskD.cc in Sources */ = {isa = PBXBuildFile; fileRef = D5B856B8202FB08B006554F6 /* taskD.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5B856AE202E67B8006554F6 /* functions.cc in Sources */,
-				D5B856B9202FB08B006554F6 /* taskD.cc in Sources */,
+				D5B856BB202FC8AF006554F6 /* taskD.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

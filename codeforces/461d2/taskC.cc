@@ -2,20 +2,17 @@
 
 using namespace std;
 
-long long gcd(long long a, long long b) {
-    if (b > a) return gcd(b, a);
-    long long x = a % b;
-    if (x == 0) return b;
-    return gcd(b, x);
-}
-
 int main() {
     long long n, k;
     cin >> n >> k;
-    if (k != 1 && k >= n) {
+    if (k > 70) {
         cout << "NO" << endl;
-    } else {
-        cout << (gcd(k,n) == 1 ? "YES" : "NO") << endl;
+        exit(0);
     }
+    set<int> s;
+    for (int i = 1; i < k + 1; i++) {
+        s.insert(n % i);
+    }
+    cout << (s.size() == k ? "YES" : "NO") << endl;
     return 0;
 }
