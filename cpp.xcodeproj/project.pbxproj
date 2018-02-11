@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D5B856AE202E67B8006554F6 /* functions.cc in Sources */ = {isa = PBXBuildFile; fileRef = D5B856AC202E6570006554F6 /* functions.cc */; };
-		D5B856BB202FC8AF006554F6 /* taskD.cc in Sources */ = {isa = PBXBuildFile; fileRef = D5B856B8202FB08B006554F6 /* taskD.cc */; };
+		D5B856BF202FF4F6006554F6 /* taskF.cc in Sources */ = {isa = PBXBuildFile; fileRef = D5B856BE202FF4F6006554F6 /* taskF.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +45,8 @@
 		D5B856B2202FA37C006554F6 /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
 		D5B856B4202FA7CB006554F6 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
 		D5B856B8202FB08B006554F6 /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
+		D5B856BC202FD8A9006554F6 /* taskE.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cc; sourceTree = "<group>"; };
+		D5B856BE202FF4F6006554F6 /* taskF.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskF.cc; sourceTree = "<group>"; };
 		D5C7C6DD202461DA00B3F4C5 /* taskE.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cc; sourceTree = "<group>"; };
 		D5C7C6DF2024626F00B3F4C5 /* 49.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 49.cc; sourceTree = "<group>"; };
 		D5E3B21F2022ABB8006E3D62 /* taskE.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cc; sourceTree = "<group>"; };
@@ -147,6 +149,8 @@
 				D5B856B2202FA37C006554F6 /* taskB.cc */,
 				D5B856B4202FA7CB006554F6 /* taskC.cc */,
 				D5B856B8202FB08B006554F6 /* taskD.cc */,
+				D5B856BC202FD8A9006554F6 /* taskE.cc */,
+				D5B856BE202FF4F6006554F6 /* taskF.cc */,
 			);
 			path = 461d2;
 			sourceTree = "<group>";
@@ -250,8 +254,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B856BF202FF4F6006554F6 /* taskF.cc in Sources */,
 				D5B856AE202E67B8006554F6 /* functions.cc in Sources */,
-				D5B856BB202FC8AF006554F6 /* taskD.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +377,7 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-Wl,-stack_size,0x10000000";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				SYSTEM_HEADER_SEARCH_PATHS = "";
@@ -389,7 +393,7 @@
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-Wl,-stack_size,0x10000000";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				SYSTEM_HEADER_SEARCH_PATHS = "";

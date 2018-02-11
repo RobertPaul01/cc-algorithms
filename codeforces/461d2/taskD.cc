@@ -17,11 +17,8 @@ signed main() {
         ll count = 0;
         int s = 0;
         for (char c : str) {
-            if (c == 'h') {
-                count += s;
-            } else {
-                s++;
-            }
+            if (c == 'h') count += s;
+            else s++;
         }
         return count;
     };
@@ -31,5 +28,4 @@ signed main() {
     string s = "";
     for (string str : strs) s += str;
     cout << f(s) << nl;
-    return 0;
 }
