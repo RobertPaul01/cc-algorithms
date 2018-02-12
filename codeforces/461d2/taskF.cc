@@ -21,7 +21,7 @@ signed main() {
             d[j]++;
         }
     }
-    
+
     int total = 0;
     for (int i = 1; i <= n; i++) {
         total += d[i];
@@ -29,10 +29,6 @@ signed main() {
     
     if (total < k) {
         cout << "No" << nl;
-        exit(0);
-    } else if (k == 0) {
-        cout << "Yes" << nl;
-        cout << 1 << nl << 1 << nl;
         exit(0);
     }
     
@@ -54,13 +50,9 @@ signed main() {
     total -= k;
     while (total) {
         auto it = m.lower_bound(total);
-        assert(it != m.end());
         int e = it->first;
         result.erase(m[e].back());
         m[e].pop_back();
-        if (m[e].size() == 0) {
-            m.erase(e);
-        }
         total -= e;
     }
     
