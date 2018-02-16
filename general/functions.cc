@@ -23,3 +23,29 @@ vector<vector<int>> permutations(vector<int>& v) {
     } while(next_permutation(p.begin(),p.end()));
     return permutations;
 }
+
+vector<vector<int>> sparse_table(vector<int>& v) {
+    vector<int> log_table(v.size() + 1, 0);
+    for (int i = 2; i < log_table.size(); i++)
+        log_table[i] = log_table[i/2] + 1;
+    
+    vector<vector<int>> s_table(log_table.back() + 1, vector<int>(v.size()));
+    s_table[0] = v;
+    for (int row = 1; row < s_table.size(); row++) {
+        for (int i = 0; i + (1 << row) <= v.size(); i++) {
+            s_table[row][i] = min(s_table[row-1][i], s_table[row-1][i+(1<<(row-1))]);
+        }
+    }
+    
+    return s_table;
+}
+
+int sparse_table_query(vector<vector<int>>& s_table, int l, int r) {
+    vector<int> log_table(s_table[0].size() + 1, 0);
+    for (int i = 2; i < log_table.size(); i++)
+        log_table[i] = log_table[i/2] + 1;
+    
+    int log = log_table[r - l];
+    int query = min(s_table[log][l], s_table[log][r - (1 << log)]);
+    return query;
+}
