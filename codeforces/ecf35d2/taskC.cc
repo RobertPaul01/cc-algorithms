@@ -29,5 +29,8 @@ signed main() { _
     else if (k3 == 3) count3++;
     else if (k3 == 4) count4++;
     
-    cout << ((count2 >= 2 || count3 == 3 || (count2 == 1 && count4 == 2) || k1 == 1 || k2 == 1 || k3 == 1 ) ? "YES" : "NO") << nl;
+    cout << ((count2 >= 2
+              || count3 == 3
+              || (count2 == 1 && count4 == 2)
+              || k1 == 1 || k2 == 1 || k3 == 1 ) ? "YES" : "NO") << nl;
 }
