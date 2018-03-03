@@ -13,6 +13,7 @@ typedef long long ll;
 
 const int N = 3e5;
 ll ava[N] = { 0 };
+ll quit[N] = { 0 };
 
 signed main() { _
     int n; cin >> n;
@@ -23,20 +24,26 @@ signed main() { _
     int time = 0;
     ll mx = LONG_LONG_MIN;
     forn(i, n) {
-        int b = (s - i) % n;
-        if (b < 0) b += n;
-        int e = (f - i) % n;
-        if (e < 0) e += n;
-        for (int j = b; j != e; j = (j + 1) % n) {
-            ava[j] += arr[i];
-            if (ava[j] > mx) {
-                mx = ava[j];
-                time = j + 1;
-            } else if (ava[j] == mx) {
-                time = min(time, j + 1);
-            }
+        int a = (s - i) % n;
+        if (a < 0) a += n;
+        int q = (f - i) % n;
+        if (q < 0) q += n;
+        if (q < a) {
+            ava[0] += arr[i];
         }
+        
+        ava[a] += arr[i];
+        quit[q] += arr[i];
     }
     
+    ll cur = 0;
+    forn(i, N) {
+        cur += ava[i];
+        cur -= quit[i];
+        if (cur > mx) {
+            time = i + 1;
+            mx = cur;
+        }
+    }
     cout << time << endl;
 }
