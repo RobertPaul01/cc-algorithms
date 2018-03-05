@@ -12,5 +12,17 @@ using namespace std;
 typedef long long ll;
 
 signed main() { _
-    cout << "HI" << endl;
+    int a[2]; cin >> a[0] >> a[1];
+    sort(a, a + 2);
+    int cost = 0;
+    int move = 1;
+    while (a[0] != a[1]) {
+        a[0]++;
+        cost += move;
+        if (a[0] == a[1]) break;
+        a[1]--;
+        cost += move;
+        move ++;
+    }
+    cout << cost << endl;
 }
