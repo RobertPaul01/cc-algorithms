@@ -19,14 +19,12 @@ struct node {
 
 node* construct(int n, int s, int e) {
     node *temp = new node;
+    temp->round = n;
     if (n == 0) {
-        temp->round = -1;
         temp->team = e;
         temp->left = temp->right = 0;
         return temp;
     }
-    temp->round = n;
-    temp->team = -1;
     int half = (e - s + 1) / 2;
     temp->left = construct(n - 1, s, s + half - 1);
     temp->right = construct(n - 1, s + half, e);
@@ -62,13 +60,11 @@ signed main() { _
     fn(root, b, path2);
     
     int round = -1;
-    for (node* n : path1) {
-        for (node* m : path2) {
-            if (n == m && round == -1) {
+    for (node* n : path1)
+        for (node* m : path2)
+            if (n == m && round == -1)
                 round = n->round;
-            }
-        }
-    }
+                
     if (round != rounds) {
         cout << round << endl;
     } else {
