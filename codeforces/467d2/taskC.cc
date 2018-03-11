@@ -13,13 +13,23 @@ typedef long long ll;
 
 signed main() { _
     ll k, d, t; cin >> k >> d >> t;
-    long double ans = t;
     
-    if (d > k) {
-        ans += (0.5) * (d - k);
+    ll period;
+    if (k <= d) period = d;
+    else period = (k / d + !(k % d == 0)) * d;
+    
+    ll cooking = period + k;
+    ll num = 2 * t / cooking;
+    ll carry = 2 * t - num * cooking;
+
+    cout.setf(ios::fixed);
+    cout << setprecision(19);
+    
+    if (carry > 2 * k) {
+        cout << num * period + carry - k;
+    } else {
+        cout << num * period + carry / 2;
+        if (carry % 2 == 1) cout << ".5";
     }
-    
-    ans += ((t / (k + 1)) * (k % d) * (0.5));
-    
-    cout << ans << nl;
+    cout << nl;
 }
