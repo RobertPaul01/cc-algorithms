@@ -8,7 +8,7 @@ using namespace std;
 
 typedef long long ll;
 
-signed main() {
+int main() {
     int n;
     cin >> n;
     vector<string> strs(n);

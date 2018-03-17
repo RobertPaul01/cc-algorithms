@@ -13,7 +13,7 @@ typedef long long ll;
 
 int A[1500];
 
-signed main() { _
+int main() { _
     int n;
     cin >> n;
     forn(i, n) cin >> A[i];

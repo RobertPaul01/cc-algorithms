@@ -24,7 +24,7 @@ bool isPrime(int n) {
     return true;
 }
 
-signed main() { _
+int main() { _
     int p, y; cin >> p >> y;
     
     int prime = -1;

@@ -26,7 +26,7 @@ vector<vector<char>> subsets(vector<char>& v) {
     return subsets;
 }
 
-signed main() { _
+int main() { _
     int n; cin >> n;
     
     ll people = 0;

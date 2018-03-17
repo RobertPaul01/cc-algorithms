@@ -9,7 +9,7 @@ using namespace std;
 
 typedef long long ll;
 
-signed main() {
+int main() {
     ll n, k;
     cin >> n >> k;
     if (k == 1) {

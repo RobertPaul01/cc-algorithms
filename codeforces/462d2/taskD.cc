@@ -16,7 +16,7 @@ int k;
 int cnt = 0;
 int nums[105];
 
-signed main() { _
+int main() { _
     cin >> p >> k;
     while (p != 0) {
         int x = p % k;

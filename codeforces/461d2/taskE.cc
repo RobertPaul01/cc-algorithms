@@ -13,7 +13,7 @@ const int M = 10005, N = 1005;
 ll dp[N][M], cost[N];
 int c[N];
 
-signed main() {
+int main() {
     int n;
     ll W, B, X;
     cin >> n >> W >> B >> X;

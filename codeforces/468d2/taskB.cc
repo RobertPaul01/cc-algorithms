@@ -43,7 +43,7 @@ int fn(node* x, int team, vector<node *> &path) {
     return 0;
 }
 
-signed main() { _
+int main() { _
     int n; cin >> n;
     int a, b; cin >> a >> b;
     int rounds = -1;

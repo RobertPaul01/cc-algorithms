@@ -19,7 +19,7 @@ vector<int> getDelta(char c) {
     return {};
 }
 
-signed main() { _
+int main() { _
     int n; cin >> n;
     string S; cin >> S;
     vector<int> cor = getDelta(S[0]);

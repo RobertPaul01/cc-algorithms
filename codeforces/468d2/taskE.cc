@@ -17,7 +17,7 @@ const int N = 5007;
 int counts[eng - 'a'] = { 0 };
 int dat[eng - 'a'][N][eng - 'a'] = { 0 };
 
-signed main() { _
+int main() { _
     string s; cin >> s;
     int n = (int)s.size();
     

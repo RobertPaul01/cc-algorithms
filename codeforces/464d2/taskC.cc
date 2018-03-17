@@ -15,7 +15,7 @@ const int N = 3e5;
 ll ava[N] = { 0 };
 ll quit[N] = { 0 };
 
-signed main() { _
+int main() { _
     int n; cin >> n;
     int arr[n]; fin(arr);
     int s, f; cin >> s >> f;

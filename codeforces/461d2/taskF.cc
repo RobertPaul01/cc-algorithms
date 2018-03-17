@@ -12,7 +12,7 @@ typedef long long ll;
 const int N = 1000005;
 int d[N];
 
-signed main() {
+int main() {
     int n, k;
     cin >> n >> k;
     

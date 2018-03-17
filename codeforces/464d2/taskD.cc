@@ -21,7 +21,7 @@ char find(char c) {
     return dsu[c][0];
 }
 
-signed main() { _
+int main() { _
     int n; cin >> n;
     string a, b; cin >> a >> b;
     forn(i, eng) {

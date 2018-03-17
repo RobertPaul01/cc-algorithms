@@ -16,7 +16,7 @@ const int M = 4;
 int arr[N];
 int dp[M] = { 0 };
 
-signed main() { _
+int main() { _
     int n; cin >> n;
     forn(i, n) cin >> arr[i];
 

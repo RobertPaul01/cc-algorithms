@@ -11,6 +11,6 @@ using namespace std;
 
 typedef long long ll;
 
-signed main() { _
+int main() { _
     
 }

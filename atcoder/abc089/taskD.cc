@@ -13,7 +13,7 @@ typedef long long ll;
 
 map<int, pii> grid;
 
-signed main() { _
+int main() { _
     int H, W; cin >> H >> W;
     int D; cin >> D;
     forn(x, H) {

@@ -11,7 +11,7 @@ using namespace std;
 
 typedef long long ll;
 
-signed main() { _
+int main() { _
     int n; cin >> n;
     int mn = INT_MAX;
     int mx = INT_MIN;

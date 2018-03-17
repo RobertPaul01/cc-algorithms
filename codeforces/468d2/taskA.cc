@@ -11,7 +11,7 @@ using namespace std;
 
 typedef long long ll;
 
-signed main() { _
+int main() { _
     int a[2]; cin >> a[0] >> a[1];
     sort(a, a + 2);
     int cost = 0;

@@ -13,7 +13,7 @@ typedef long long ll;
 
 ll n, m, r, k;
 
-signed main() { _
+int main() { _
     cin >> n >> m >> r >> k;
     auto f = [](pll p) {
         return (min(n + 1, p.first + r) - max(p.first, r)) * (min(m + 1, p.second + r) - max(p.second, r));

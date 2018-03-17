@@ -11,7 +11,7 @@ using namespace std;
 
 typedef long long ll;
 
-signed main() { _
+int main() { _
     int n, a, b;
     cin >> n >> a >> b;
     int M = 1;

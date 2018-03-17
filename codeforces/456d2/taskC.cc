@@ -13,7 +13,7 @@ typedef long long ll;
 map<ll, ll> add;
 map<ll, ll> sub;
 
-signed main() { _
+int main() { _
     ll n, m;
     cin >> n >> m;
     ll bounty, inc, dmg;

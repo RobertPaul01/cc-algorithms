@@ -11,7 +11,7 @@ using namespace std;
 
 typedef long long ll;
 
-signed main() { _
+int main() { _
     int k1, k2, k3;
     cin >> k1 >> k2 >> k3;
     int count2 = 0;

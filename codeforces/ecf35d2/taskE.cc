@@ -14,7 +14,7 @@ typedef long long ll;
 stack<pii> s;
 vector<int> arr;
 
-signed main() { _
+int main() { _
     int n, k; cin >> n >> k;
     int ki; cin >> ki;
     
