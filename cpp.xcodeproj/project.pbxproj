@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5E9B70A205EFFF000FC404B /* taskA.cp in Sources */ = {isa = PBXBuildFile; fileRef = D5AD708A205D3CFA00460C50 /* taskA.cp */; };
+		D5B3FBFD206732A400420541 /* practice.cp in Sources */ = {isa = PBXBuildFile; fileRef = D59EBF172054C60B009AED02 /* practice.cp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +76,9 @@
 		D59EBF1020549078009AED02 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
 		D59EBF122054907D009AED02 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
 		D59EBF172054C60B009AED02 /* practice.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = practice.cp; sourceTree = "<group>"; };
+		D5A46E5F206670F5003C33DE /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
+		D5A46E6120667100003C33DE /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
+		D5A46E6320667103003C33DE /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
 		D5A87E8D201DC1790038BE28 /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A87E90201DC1790038BE28 /* template.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cc; sourceTree = "<group>"; };
 		D5AD708A205D3CFA00460C50 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
@@ -184,6 +187,7 @@
 		D563B4A52021840900C4890F /* codeforces */ = {
 			isa = PBXGroup;
 			children = (
+				D5A46E5E206670E6003C33DE /* 471d2 */,
 				D5AD708E205D6D2B00460C50 /* vk */,
 				D51CD11E205CE4D40089A113 /* 469d2 */,
 				D59EBF0D2054902A009AED02 /* 470d2 */,
@@ -276,6 +280,16 @@
 				D59EBF122054907D009AED02 /* taskC.cp */,
 			);
 			path = 470d2;
+			sourceTree = "<group>";
+		};
+		D5A46E5E206670E6003C33DE /* 471d2 */ = {
+			isa = PBXGroup;
+			children = (
+				D5A46E5F206670F5003C33DE /* taskA.cp */,
+				D5A46E6120667100003C33DE /* taskB.cp */,
+				D5A46E6320667103003C33DE /* taskC.cp */,
+			);
+			path = 471d2;
 			sourceTree = "<group>";
 		};
 		D5A87E84201DC1790038BE28 = {
@@ -437,7 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5E9B70A205EFFF000FC404B /* taskA.cp in Sources */,
+				D5B3FBFD206732A400420541 /* practice.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
