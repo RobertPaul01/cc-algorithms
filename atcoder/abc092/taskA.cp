@@ -5,11 +5,11 @@ using namespace std;
 #define all(a) (a).begin(), (a).end()
 #define nl '\n'
 #define precision(n) setprecision(n)
-#define pii pair<int, int>
-#define pll pair<ll, ll>
 typedef long double ld;
 typedef long long ll;
 
 int main() { _
+    int a,b,c,d; cin >> a >> b >> c >> d;
+    cout << min(a,b) + min(c,d) << nl;
     return 0;
 }

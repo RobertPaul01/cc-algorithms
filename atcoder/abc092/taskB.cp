@@ -5,11 +5,18 @@ using namespace std;
 #define all(a) (a).begin(), (a).end()
 #define nl '\n'
 #define precision(n) setprecision(n)
-#define pii pair<int, int>
-#define pll pair<ll, ll>
 typedef long double ld;
 typedef long long ll;
 
 int main() { _
+    int n, d, x; cin >> n >> d >> x;
+    int eaten = 0;
+    forn(i, 0, n) {
+        int ai; cin >> ai;
+        for (int x = 1; x <= d; x += ai) {
+            eaten++;
+        }
+    }
+    cout << eaten + x << nl;
     return 0;
 }

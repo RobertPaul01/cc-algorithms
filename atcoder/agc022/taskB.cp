@@ -10,6 +10,9 @@ using namespace std;
 typedef long double ld;
 typedef long long ll;
 
+int MAX_SIZE = 30000;
+
 int main() { _
+    int n; cin >> n;
     return 0;
 }
