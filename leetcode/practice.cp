@@ -12,18 +12,47 @@ typedef long long ll;
 
 class Solution {
 public:
-    bool splitArraySameAverage(vector<int>& A) {
-        double avg = 0;
-        for (int x : A) avg += x;
-        avg /= A.size();
-        return false;
+    double search(int a, int b) {
+//        cout << a << " " << b << nl;
+        if (a == 0 && b == 0) return 0.5;
+        if (a <= 0 && b > 0) {
+            return 1;
+        }
+        if (a <= 0 || b <= 0) {
+            return 0;
+        }
+        double found = 0;
+        found += search(a - 100, b);
+        found += search(a - 75, b - 25);
+        found += search(a - 50, b - 50);
+        found += search(a - 25, b - 75);
+//        cout << found << nl;
+        return found * 0.25;
+    }
+    
+    double search2(int a, int b) {
+        if (a < 0 || b < 0) return 0;
+        if (a == 0 && b == 0) return 1;
+        double found = 0;
+        found += search(a - 100, b);
+        found += search(a - 75, b - 25);
+        found += search(a - 50, b - 50);
+        found += search(a - 25, b - 75);
+        cout << found << nl;
+        return found / 4.0;
+    }
+    
+    double soupServings(int N) {
+        double prob = 0;
+        prob += search(N, N);
+//        prob += (search2(N, N) / 2);
+        return prob;
     }
 };
 
 int main() {
     Solution s;
-    vector<int> v = {1,2,3,4,5,6,7,8};
-    cout << s.splitArraySameAverage(v);
+    cout << s.soupServings(50);
     cout << endl;
 }
 

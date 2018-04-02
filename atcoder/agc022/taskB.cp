@@ -14,5 +14,6 @@ int MAX_SIZE = 30000;
 
 int main() { _
     int n; cin >> n;
+    
     return 0;
 }
