@@ -60,3 +60,17 @@ bool isPrime(int n) {
     
     return true;
 }
+
+
+vector<int> sieve(int n) {
+    vector<int> v;
+    bool prime[n + 1];
+    memset(prime, true, sizeof(prime));
+    for(int i = 2; i <= n; i++) {
+        if (prime[i]) {
+            v.push_back(i);
+            for (int j = i * i; j <= n; j += i) prime[j] = false;
+        }
+    }
+    return v;
+}

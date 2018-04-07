@@ -1,6 +1,5 @@
 #include "bits/stdc++.h"
 using namespace std;
-#define _ ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 #define forn(i, x, n) for (int i = x; i < n; i++)
 #define all(a) (a).begin(), (a).end()
 #define nl '\n'
@@ -12,47 +11,47 @@ typedef long long ll;
 
 class Solution {
 public:
+    double dp[507][507] = { 0 };
+    
     double search(int a, int b) {
-//        cout << a << " " << b << nl;
-        if (a == 0 && b == 0) return 0.5;
-        if (a <= 0 && b > 0) {
-            return 1;
-        }
-        if (a <= 0 || b <= 0) {
-            return 0;
-        }
+        if (a <= 0 && b <= 0) return 0.5;
+        if (a <= 0 && b > 0) return 1;
+        if (a > 0 && b <= 0) return 0;
+        if (dp[a][b]) return dp[a][b];
         double found = 0;
-        found += search(a - 100, b);
-        found += search(a - 75, b - 25);
-        found += search(a - 50, b - 50);
-        found += search(a - 25, b - 75);
-//        cout << found << nl;
-        return found * 0.25;
+        found += search(a - 1, b - 3);
+        found += search(a - 2, b - 2);
+        found += search(a - 3, b - 1);
+        found += search(a - 4, b);
+        dp[a][b] = found * 0.25;
+        return dp[a][b];
     }
-    
-    double search2(int a, int b) {
-        if (a < 0 || b < 0) return 0;
-        if (a == 0 && b == 0) return 1;
-        double found = 0;
-        found += search(a - 100, b);
-        found += search(a - 75, b - 25);
-        found += search(a - 50, b - 50);
-        found += search(a - 25, b - 75);
-        cout << found << nl;
-        return found / 4.0;
-    }
-    
+
     double soupServings(int N) {
-        double prob = 0;
-        prob += search(N, N);
-//        prob += (search2(N, N) / 2);
-        return prob;
+        int n = (N + 24) / 25;
+        if (n > 500) return 1;
+        dp[0][0] = 0.5;
+        forn(b, 1, n + 1) dp[0][b] = 1;
+        forn(a, 1, n + 1) dp[a][0] = 0;
+        forn(a, 1, n + 1) {
+            forn(b, 1, n + 1) {
+                dp[a][b] = 0.25 * (
+                    dp[max(0, a - 4)][b] +
+                    dp[max(0, a - 1)][max(0, b - 3)] +
+                    dp[max(0, a - 2)][max(0, b - 2)] +
+                    dp[max(0, a - 3)][max(0, b - 1)]
+                );
+            }
+        }
+        return dp[n][n];
     }
 };
 
 int main() {
     Solution s;
-    cout << s.soupServings(50);
-    cout << endl;
+    Solution si;
+    int N = 4000;
+    cout << s.search((N + 24) / 25, (N + 24) / 25) << nl;
+    cout << si.soupServings(N) << nl;
 }
 
