@@ -15,19 +15,20 @@ int main() { _
     vector<ll> v;
     forn(i, 0, q) {
         ll a, b; cin >> a >> b;
-        if (a == b && a == 1) {
-            v.push_back(0);
-            continue;
+        if (a == b) {
+            cout << (2*a-2) << nl;
+        } else if (abs(a-b) == 1) {
+            cout << (2*min(a,b)-2) << nl;
+        } else {
+            ll n = a*b;
+            ll c = sqrt(n);
+            if (c*c == n) c--;
+            if (c*(c+1) >= n) {
+                cout << (2*c-2) << nl;
+            } else {
+                cout << (2*c-1) << nl;
+            }
         }
-        ll n = a * b;
-        ll x = sqrt(n - 1);
-        ll y = (n - 1) / x;
-        ll ans = ((x - 1) + (y - 1));
-        if (x == 1 || y == 1) {
-            ans = 1;
-        }
-        v.push_back(ans);
     }
-    for (ll x : v) cout << x << nl;
     return 0;
 }
