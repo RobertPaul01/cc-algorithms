@@ -11,5 +11,22 @@ typedef long double ld;
 typedef long long ll;
 
 int main() { _
+    int n; cin >> n;
+    ll sA = 0;
+    ll mB = -1;
+    
+    forn(i, 0, n) {
+        ll a, b;
+        cin >> a >> b;
+        sA += a;
+        if (a > b) {
+            if (mB == -1) mB = b;
+            else mB = min(mB, b);
+        }
+    }
+
+    if (mB == -1) cout << 0;
+    else cout << (sA - mB);
+    cout << nl;
     return 0;
 }
