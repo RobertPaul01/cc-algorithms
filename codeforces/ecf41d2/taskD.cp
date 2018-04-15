@@ -7,8 +7,6 @@ using namespace std;
 typedef long double ld;
 typedef long long ll;
 
-vector<pll> points;
-
 ll cross(pll a, pll b) {
     return a.first * b.second - a.second * b.first;
 }
@@ -36,7 +34,6 @@ int main() {
                     if (cross(sub(open[1], open[0]), sub(d, open[0])) == 0) {
                         line1.push_back(open[0]);
                         line1.push_back(open[1]);
-                        line1.push_back(d);
                         break;
                     }
                 } while(next_permutation(open.begin(),open.end()));
@@ -59,7 +56,6 @@ int main() {
                 }
             }
         } else if (cross(sub(line1[1], line1[0]), sub(d, line1[0])) == 0) {
-            line1.push_back(d);
         } else if (line2.empty()) {
             if (open.size() < 2) {
                 open.push_back(d);
@@ -68,7 +64,6 @@ int main() {
                     if (cross(sub(open[1], open[0]), sub(d, open[0])) == 0) {
                         line2.push_back(open[0]);
                         line2.push_back(open[1]);
-                        line2.push_back(d);
                         break;
                     }
                 } while(next_permutation(open.begin(),open.end()));
@@ -81,7 +76,6 @@ int main() {
                 }
             }
         } else if (cross(sub(line2[1], line2[0]), sub(d, line2[0])) == 0) {
-            line2.push_back(d);
         } else {
             ans = false;
             break;
