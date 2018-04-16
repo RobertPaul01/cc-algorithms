@@ -6,10 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D5C9A18C2082E2CA00066249 /* practice.cp in Sources */ = {isa = PBXBuildFile; fileRef = D59EBF172054C60B009AED02 /* practice.cp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		D5A87E8B201DC1790038BE28 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -122,6 +118,8 @@
 		D5C9A1832082256600066249 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
 		D5C9A1852082256B00066249 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
 		D5C9A18A2082420200066249 /* taskE.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cp; sourceTree = "<group>"; };
+		D5C9A18E2083DE2C00066249 /* 818.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 818.cp; sourceTree = "<group>"; };
+		D5C9A1912084332400066249 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
 		D5DDEAD320368948007A5A50 /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
 		D5DFD0EB2043527600F1CB7A /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
 		D5DFD0ED2043D29D00F1CB7A /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
@@ -417,6 +415,7 @@
 			isa = PBXGroup;
 			children = (
 				D5AD708F205D6F4D00460C50 /* taskA.cp */,
+				D5C9A1912084332400066249 /* taskB.cp */,
 			);
 			path = vk;
 			sourceTree = "<group>";
@@ -493,6 +492,7 @@
 				D5390CB6202BEE6D00199DD5 /* 46.cc */,
 				D59EBF0420537279009AED02 /* 389.cc */,
 				D59EBF072053747F009AED02 /* 390.cc */,
+				D5C9A18E2083DE2C00066249 /* 818.cp */,
 				D59EBF172054C60B009AED02 /* practice.cp */,
 			);
 			path = leetcode;
@@ -567,7 +567,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C9A18C2082E2CA00066249 /* practice.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
