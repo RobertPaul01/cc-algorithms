@@ -8,6 +8,12 @@ typedef long double ld;
 typedef long long ll;
 
 int main() {
+    string s;
+    getline(cin, s);
+    int ans = 700;
+    forn(i, 0, s.size()) {
+        if (s[i] == 'o') ans += 100;
+    }
+    printf("%d\n", ans);
     return 0;
 }
-

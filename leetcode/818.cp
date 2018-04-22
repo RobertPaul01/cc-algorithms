@@ -22,9 +22,7 @@ public:
             for (int j = 0; j < k-1; j++) {
                 dp[t] = min(dp[t], dp[t - (1<<(k-1)) + (1<<j)] + k-1 + j + 2);
             }
-            if ((1<<k) - 1 - t < t) {
-                dp[t] = min(dp[t], dp[(1<<k) - 1 - t] + k + 1);
-            }
+            dp[t] = min(dp[t], dp[(1<<k) - 1 - t] + k + 1);
         }
         return dp[target];
     }

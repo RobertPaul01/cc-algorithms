@@ -6,6 +6,10 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D5AD3226208BC3ED0047F837 /* taskD.cp in Sources */ = {isa = PBXBuildFile; fileRef = D5AD3222208B6A500047F837 /* taskD.cp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		D5A87E8B201DC1790038BE28 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -99,6 +103,13 @@
 		D5A46E6320667103003C33DE /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
 		D5A87E8D201DC1790038BE28 /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A87E90201DC1790038BE28 /* template.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = template.cc; sourceTree = "<group>"; };
+		D5AD32102086F4AA0047F837 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
+		D5AD32122086F4B20047F837 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
+		D5AD32142086F4B50047F837 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
+		D5AD321C208B6A440047F837 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
+		D5AD321E208B6A4B0047F837 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
+		D5AD3220208B6A4E0047F837 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
+		D5AD3222208B6A500047F837 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
 		D5AD708A205D3CFA00460C50 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
 		D5AD708F205D6F4D00460C50 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
 		D5B856AC202E6570006554F6 /* functions.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = functions.cc; sourceTree = "<group>"; };
@@ -259,6 +270,7 @@
 		D563B4A52021840900C4890F /* codeforces */ = {
 			isa = PBXGroup;
 			children = (
+				D5AD320F2086F4980047F837 /* cf475d2 */,
 				D514075C208199FF003D7A0F /* 455d2 */,
 				D5443E8E207DCAFE00D20BAA /* ecf41d2 */,
 				D519D66C2076FEE600B0DBA6 /* 473d2 */,
@@ -294,6 +306,7 @@
 		D569F074201EBDA1002721B9 /* atcoder */ = {
 			isa = PBXGroup;
 			children = (
+				D5AD321B208B6A3A0047F837 /* abc095 */,
 				D5C9A17E2082254F00066249 /* abc094 */,
 				D5798E7A2078EA2F0010DC5F /* abc093 */,
 				D5BC4006206FDA2500966C4F /* agc022 */,
@@ -401,6 +414,27 @@
 				D5A87E8D201DC1790038BE28 /* cpp */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D5AD320F2086F4980047F837 /* cf475d2 */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD32102086F4AA0047F837 /* taskA.cp */,
+				D5AD32122086F4B20047F837 /* taskB.cp */,
+				D5AD32142086F4B50047F837 /* taskC.cp */,
+			);
+			path = cf475d2;
+			sourceTree = "<group>";
+		};
+		D5AD321B208B6A3A0047F837 /* abc095 */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD321C208B6A440047F837 /* taskA.cp */,
+				D5AD321E208B6A4B0047F837 /* taskB.cp */,
+				D5AD3220208B6A4E0047F837 /* taskC.cp */,
+				D5AD3222208B6A500047F837 /* taskD.cp */,
+			);
+			path = abc095;
 			sourceTree = "<group>";
 		};
 		D5AD7089205D3CE400460C50 /* arc092 */ = {
@@ -567,6 +601,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5AD3226208BC3ED0047F837 /* taskD.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
