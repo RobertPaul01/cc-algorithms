@@ -52,6 +52,10 @@
 		D5380B5B208D5EB700EDF535 /* 61A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 61A.cp; sourceTree = "<group>"; };
 		D5380B5D208D607900EDF535 /* 141A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 141A.cp; sourceTree = "<group>"; };
 		D5380B5F208D635500EDF535 /* 339B.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 339B.cp; sourceTree = "<group>"; };
+		D5380B61208D876300EDF535 /* 285A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 285A.cp; sourceTree = "<group>"; };
+		D5380B6B208D88EF00EDF535 /* 463B.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 463B.cp; sourceTree = "<group>"; };
+		D5380B6D208D8DFA00EDF535 /* 118B.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 118B.cp; sourceTree = "<group>"; };
+		D5380B6F208DBD3D00EDF535 /* 219A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 219A.cp; sourceTree = "<group>"; };
 		D5390CB4202BD39900199DD5 /* 16.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 16.cc; sourceTree = "<group>"; };
 		D5390CB6202BEE6D00199DD5 /* 46.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 46.cc; sourceTree = "<group>"; };
 		D543DA7D20703DE80048D298 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
@@ -236,7 +240,7 @@
 			path = 462d2;
 			sourceTree = "<group>";
 		};
-		D5380B52208D540400EDF535 /* a20j */ = {
+		D5380B52208D540400EDF535 /* a2oj */ = {
 			isa = PBXGroup;
 			children = (
 				D5380B53208D542100EDF535 /* 432A.cp */,
@@ -245,9 +249,13 @@
 				D5380B59208D5DA100EDF535 /* 116A.cp */,
 				D5380B5D208D607900EDF535 /* 141A.cp */,
 				D5380B5B208D5EB700EDF535 /* 61A.cp */,
+				D5380B61208D876300EDF535 /* 285A.cp */,
 				D5380B5F208D635500EDF535 /* 339B.cp */,
+				D5380B6B208D88EF00EDF535 /* 463B.cp */,
+				D5380B6D208D8DFA00EDF535 /* 118B.cp */,
+				D5380B6F208DBD3D00EDF535 /* 219A.cp */,
 			);
-			path = a20j;
+			path = a2oj;
 			sourceTree = "<group>";
 		};
 		D5443E8E207DCAFE00D20BAA /* ecf41d2 */ = {
@@ -420,7 +428,7 @@
 				D5E3B2212022AC1A006E3D62 /* leetcode */,
 				D563B4A52021840900C4890F /* codeforces */,
 				D569F074201EBDA1002721B9 /* atcoder */,
-				D5380B52208D540400EDF535 /* a20j */,
+				D5380B52208D540400EDF535 /* a2oj */,
 				D5A87E90201DC1790038BE28 /* template.cc */,
 				D5A87E8E201DC1790038BE28 /* Products */,
 			);
