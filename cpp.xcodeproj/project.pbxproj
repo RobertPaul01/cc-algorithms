@@ -99,6 +99,10 @@
 		D58924032030A1DE003314A4 /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
 		D58924052030A1F8003314A4 /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
 		D58924072030A1FF003314A4 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
+		D58FDD04208EC28000B4F892 /* 270A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 270A.cp; sourceTree = "<group>"; };
+		D58FDD06208ECC3300B4F892 /* 58A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 58A.cp; sourceTree = "<group>"; };
+		D58FDD08208EFBB300B4F892 /* 501A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 501A.cp; sourceTree = "<group>"; };
+		D58FDD0A208EFD2A00B4F892 /* 160A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 160A.cp; sourceTree = "<group>"; };
 		D59EBF0420537279009AED02 /* 389.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 389.cc; sourceTree = "<group>"; };
 		D59EBF072053747F009AED02 /* 390.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 390.cc; sourceTree = "<group>"; };
 		D59EBF0E2054906D009AED02 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
@@ -254,6 +258,10 @@
 				D5380B6B208D88EF00EDF535 /* 463B.cp */,
 				D5380B6D208D8DFA00EDF535 /* 118B.cp */,
 				D5380B6F208DBD3D00EDF535 /* 219A.cp */,
+				D58FDD04208EC28000B4F892 /* 270A.cp */,
+				D58FDD06208ECC3300B4F892 /* 58A.cp */,
+				D58FDD08208EFBB300B4F892 /* 501A.cp */,
+				D58FDD0A208EFD2A00B4F892 /* 160A.cp */,
 			);
 			path = a2oj;
 			sourceTree = "<group>";
