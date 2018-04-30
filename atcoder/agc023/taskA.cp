@@ -1,0 +1,29 @@
+#include "bits/stdc++.h"
+using namespace std;
+#define forn(i, x, n) for (int i = x; i < n; i++)
+#define all(a) (a).begin(), (a).end()
+#define pii pair<int, int>
+#define pll pair<ll, ll>
+typedef long double ld;
+typedef long long ll;
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    ll ans = 0;
+    ll s = 0;
+    map<ll, ll> q;
+    q[0] = 1;
+    forn(i, 0, n) {
+        ll x;
+        scanf("%llu", &x);
+        s += x;
+        if (q.count(s)) {
+            ans += q[s];
+        }
+        q[s]++;
+    }
+    printf("%llu\n", ans);
+    return 0;
+}
+
