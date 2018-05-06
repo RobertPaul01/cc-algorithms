@@ -73,6 +73,12 @@
 		D5543898203B11ED0071BED9 /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
 		D554389B203B12410071BED9 /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
 		D554389D203B12480071BED9 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
+		D557506E209F42450001849C /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
+		D5575070209F424D0001849C /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
+		D5575072209F42500001849C /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
+		D5575074209F42540001849C /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
+		D557507B209F49E30001849C /* taskE.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cp; sourceTree = "<group>"; };
+		D557507D209F49E60001849C /* taskF.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskF.cp; sourceTree = "<group>"; };
 		D56337302067C5B000D5823D /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
 		D56337322067C5BD00D5823D /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
 		D56337342067C5C000D5823D /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
@@ -327,6 +333,19 @@
 			path = ecf35d2;
 			sourceTree = "<group>";
 		};
+		D557506D209F42330001849C /* cf479d3 */ = {
+			isa = PBXGroup;
+			children = (
+				D557506E209F42450001849C /* taskA.cp */,
+				D5575070209F424D0001849C /* taskB.cp */,
+				D5575072209F42500001849C /* taskC.cp */,
+				D5575074209F42540001849C /* taskD.cp */,
+				D557507B209F49E30001849C /* taskE.cp */,
+				D557507D209F49E60001849C /* taskF.cp */,
+			);
+			path = cf479d3;
+			sourceTree = "<group>";
+		};
 		D563372F2067C5A400D5823D /* abc092 */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +360,7 @@
 		D563B4A52021840900C4890F /* codeforces */ = {
 			isa = PBXGroup;
 			children = (
+				D557506D209F42330001849C /* cf479d3 */,
 				D5AD320F2086F4980047F837 /* cf475d2 */,
 				D514075C208199FF003D7A0F /* 455d2 */,
 				D5443E8E207DCAFE00D20BAA /* ecf41d2 */,
