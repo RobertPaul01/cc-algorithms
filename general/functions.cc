@@ -66,7 +66,7 @@ vector<int> sieve(int n) {
     for(int i = 2; i <= n; i++) {
         if (prime[i]) {
             v.push_back(i);
-            for (int j = i * i; j <= n; j += i) prime[j] = false;
+            for (int j = i + i; j <= n; j += i) prime[j] = false;
         }
     }
     return v;

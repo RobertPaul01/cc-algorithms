@@ -7,17 +7,16 @@ using namespace std;
 typedef long double ld;
 typedef long long ll;
 
-const int N = 55556;
+const int N = 1000000;
 bool prime[N];
 
-vector<int> sieve() {
-    vector<int> v;
+vector<ll> sieve(ll n) {
+    vector<ll> v;
     memset(prime, true, sizeof(prime));
-    for(int i = 2; i <= N; i++) {
+    for(ll i = 2; i <= n; i++) {
         if (prime[i]) {
             v.push_back(i);
-            for (int j = i; j <= N; j += i)
-                prime[j] = false;
+            for (ll j = i + i; j <= n; j += i) prime[j] = false;
         }
     }
     return v;
@@ -26,12 +25,16 @@ vector<int> sieve() {
 int main() {
     int n;
     scanf("%d", &n);
-    vector<int> s = sieve();
-    int x = 0;
-    for (int i = 0; i < n; i++) {
-        while (s[x] % 5 != 1) x++;
-        printf("%d ", s[x]);
-        x++;
+    sieve(N);
+    prime[1] = false;
+    forn(i, 0, n) {
+        ll x;
+        scanf(" %lld", &x);
+        bool res = false;
+        ll sqt = sqrt(x);
+        if (sqt * sqt == x && prime[sqt])
+            res = true;
+        printf(res ? "YES\n" : "NO\n");
     }
     return 0;
 }

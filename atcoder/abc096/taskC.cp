@@ -13,10 +13,8 @@ int main() {
     int H, W;
     scanf("%d %d ", &H, &W);
     forn(i, 0, H) {
-        string line;
-        getline(cin, line);
         forn(j, 0, W) {
-            g[i][j] = line[j];
+            scanf(" %c", &g[i][j]);
         }
     }
     
