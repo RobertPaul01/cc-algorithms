@@ -10,18 +10,17 @@ typedef long long ll;
 const int N = 10000;
 vector<int> g[N];
 
-int dfs(int x, set<int> &visited) {
-    if (visited.count(x)) return 0;
-    visited.insert(x);
+int dfs(int cur, int prev) {
     int size = 0;
-    for(int y : g[x]) {
-        size += dfs(y, visited);
+    for(int next : g[cur]) {
+        if (next == prev)
+            continue;
+        size += dfs(next, cur);
     }
     return size + 1;
 }
 
 int main() {
-    set<int> visited;
-    dfs(0, visited);
+    dfs(0, -1);
     return 0;
 }

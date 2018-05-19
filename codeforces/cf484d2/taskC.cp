@@ -8,63 +8,37 @@ typedef long double ld;
 typedef long long ll;
 
 const int N = 100000;
-int k[N];
-int s[N];
-
-int find(int x) {
-    while (x != k[x]) x = k[x];
-    return x;
-}
-
-void unite(int a, int b) {
-    a = find(a);
-    b = find(b);
-    if (s[a] < s[b]) swap(a,b);
-    s[a] += s[b];
-    k[b] = a;
-}
-
 vector<int> g[N];
+int ans = 0;
+
+int dfs(int cur, int prev) {
+    int size = 1;
+    for(int next : g[cur]) {
+        if (next == prev)
+            continue;
+        size += dfs(next, cur);
+    }
+    if (size % 2 == 0) {
+        ans++;
+    }
+    return size;
+}
 
 int main() {
-    forn(i, 0, N) k[i] = i;
-    forn(i, 0, N) s[i] = i;
     int n;
     scanf("%d ", &n);
     forn(i, 0, n - 1) {
         int x, y;
         scanf("%d %d", &x, &y);
         x--; y--;
-        unite(x, y);
         g[x].push_back(y);
         g[y].push_back(x);
     }
-    map<int, int> sizes;
-    map<int, int> edges;
-    forn(i, 0, n) {
-        int x = find(i);
-        sizes[x]++;
-        int dec = 0;
-        if (g[i].size() % 2 == 0) {
-            for (int y : g[i]) {
-                if (g[y].size() % 2 == 0) {
-                    dec++;
-                }
-            }
-        }
-        edges[x] += dec;
+    if (n % 2 == 1) {
+        printf("-1\n");
+        exit(0);
     }
-    int ans = 0;
-    for(pii p : sizes) {
-        int x = p.first;
-        int y = p.second;
-        if (y % 2 == 1) {
-            printf("-1\n");
-            exit(0);
-        } else {
-            ans += (edges[x] / 2);
-        }
-    }
-    printf("%d\n", ans);
+    dfs(0, -1);
+    printf("%d\n", ans - 1);
     return 0;
 }
