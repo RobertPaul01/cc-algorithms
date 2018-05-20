@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5FF08DE20B08A1D003584EB /* taskC.cp in Sources */ = {isa = PBXBuildFile; fileRef = D56D446A20AFC71500E5A0AB /* taskC.cp */; };
+		D5781DCF20B1B31400F5FB53 /* taskC.cp in Sources */ = {isa = PBXBuildFile; fileRef = D56D447620AFDDB200E5A0AB /* taskC.cp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +120,7 @@
 		D57001D4204C2A90000FE75D /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
 		D57001D6204C2A95000FE75D /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
 		D5766935204B4797002BF5E4 /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
+		D5781DC920B121BA00F5FB53 /* 388A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 388A.cp; sourceTree = "<group>"; };
 		D5798E7B2078EA390010DC5F /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
 		D5798E7D2078EA4C0010DC5F /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
 		D5798E7F2078EA500010DC5F /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
@@ -332,6 +333,7 @@
 				D5A3AFC3209ED95F005E872A /* 363B.cp */,
 				D5A3AFC5209EDE22005E872A /* 230B.cp */,
 				D57F88AB20A001A9007EF4CC /* 166A.cp */,
+				D5781DC920B121BA00F5FB53 /* 388A.cp */,
 			);
 			path = a2oj;
 			sourceTree = "<group>";
@@ -781,7 +783,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5FF08DE20B08A1D003584EB /* taskC.cp in Sources */,
+				D5781DCF20B1B31400F5FB53 /* taskC.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

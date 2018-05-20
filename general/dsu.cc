@@ -26,6 +26,6 @@ void unite(int a, int b) {
 
 int main() {
     forn(i, 0, N) k[i] = i;
-    forn(i, 0, N) s[i] = i;
+    forn(i, 0, N) s[i] = 1;
     return 0;
 }

@@ -7,24 +7,26 @@ using namespace std;
 typedef long double ld;
 typedef long long ll;
 
-char t[303][303];
+const int MOD = 1e9 + 7;
 
 int main() {
-    int N;
-    scanf("%d", &N);
-    forn(i, 0, N) {
-        forn(j, 0, N) {
-            scanf(" %c", &t[i][j]);
-        }
+    int n;
+    scanf("%d", &n);
+    ll ans = 0;
+    ll fac[n + 7];
+    fac[0] = 1;
+    fac[1] = 1;
+    forn(i, 2, n + 7) {
+        fac[i] = (fac[i - 1] * i) % MOD;
     }
-    int ans = 0;
-    forn(i, 0, N) {
-        forn(j, 0, N) {
-            printf("%c", t[i][j]);
-        }
-        printf("\n");
+    for (int k = n - 1; k >= n - 1 - k; k--) {
+        int l = n - 1 - k;
+        cout << k << " " << l << endl;
+        ll comb = fac[k - 1] / (fac[l] * fac[k - l]);
+        cout << comb << " " << fac[k] << " " << fac[l] << endl;
+        ans += (((comb * fac[k]) % MOD) * fac[l]) % MOD;
     }
-    printf("%d\n", ans);
+    printf("%lld\n", ans);
     return 0;
 }
 
