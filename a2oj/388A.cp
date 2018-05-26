@@ -38,6 +38,6 @@ int main() {
 //        }
 //        cout << endl;
     }
-    printf("%d\n", piles.size());
+    printf("%d\n", (int)piles.size());
     return 0;
 }
