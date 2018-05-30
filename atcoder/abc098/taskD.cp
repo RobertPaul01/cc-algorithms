@@ -7,37 +7,40 @@ using namespace std;
 typedef long double ld;
 typedef long long ll;
 
-const int N = 1e5 + 7;
+const int N = 2e5 + 7;
 int a[N];
 
 int main() {
-    int n; cin >> n;
-    int x[n];
-    x[0] = 0;
+    int n;
+    scanf("%d", &n);
     forn (i, 0, n) {
-        cin >> a[i];
-        if (i > 0) {
-        }
-    }
-    int c = 0;
-    int l = 0;
-    int r = 1;
-    int s = a[0];
-    for (; r < n; r++) {
-        x[r] = a[r] ^ s;
-        s += a[r];
-        if (x[r] == s) {
-        } else {
-            int d = r - l;
-            c += ((d + 1) * d) / 2;
-            l = r;
-            s = a[r];
-        }
+        scanf(" %d", &a[i]);
     }
     
-    int d = r - l;
-    c += ((d + 1) * d) / 2;
-
-    cout << endl << c << endl;
+    ll ans = 0;
+    
+    int l = 0;
+    int r = 1;
+    ll cur = a[l];
+    
+    while (l < n) {
+        if (r < n && (cur & a[r]) == 0) {
+            cur += a[r];
+            r++;
+        } else {
+            cur -= a[l];
+            
+            int d = r - l;
+            ans += d;
+            
+            l++;
+            if (l == r) {
+                r = l + 1;
+                cur = a[l];
+            }
+        }
+    }
+   
+    printf("%lld\n", ans);
     return 0;
 }
