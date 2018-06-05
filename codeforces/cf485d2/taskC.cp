@@ -14,7 +14,7 @@ int dp[N][3];
 int main() {
     #ifdef DEBUG
     freopen("input", "r", stdin);
-//    freopen("output", "w", stdout);
+    freopen("output", "w", stdout);
     #endif
     
     int n;
