@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D557890320C4A7750083D2AE /* taskD.cp in Sources */ = {isa = PBXBuildFile; fileRef = D578243F20C18B7100E2149A /* taskD.cp */; };
+		D529D54920C653070007C117 /* taskC.cp in Sources */ = {isa = PBXBuildFile; fileRef = D529D54620C6499A0007C117 /* taskC.cp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +59,12 @@
 		D520DF502044F78200BA8338 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
 		D525435F203C9729005115F9 /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
 		D5254362203D2DB6005115F9 /* taskE.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cc; sourceTree = "<group>"; };
+		D529D53D20C6368C0007C117 /* input */ = {isa = PBXFileReference; lastKnownFileType = text; path = input; sourceTree = "<group>"; };
+		D529D53E20C636D20007C117 /* output */ = {isa = PBXFileReference; lastKnownFileType = text; path = output; sourceTree = "<group>"; };
+		D529D54020C6428D0007C117 /* slow-output */ = {isa = PBXFileReference; lastKnownFileType = text; path = "slow-output"; sourceTree = "<group>"; };
+		D529D54220C6498C0007C117 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
+		D529D54420C649970007C117 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
+		D529D54620C6499A0007C117 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
 		D5380B53208D542100EDF535 /* 432A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 432A.cp; sourceTree = "<group>"; };
 		D5380B55208D561D00EDF535 /* 136A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 136A.cp; sourceTree = "<group>"; };
 		D5380B57208D59ED00EDF535 /* 110A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 110A.cp; sourceTree = "<group>"; };
@@ -333,6 +339,16 @@
 			path = 462d2;
 			sourceTree = "<group>";
 		};
+		D529D54120C6497F0007C117 /* cf485d2 */ = {
+			isa = PBXGroup;
+			children = (
+				D529D54220C6498C0007C117 /* taskA.cp */,
+				D529D54420C649970007C117 /* taskB.cp */,
+				D529D54620C6499A0007C117 /* taskC.cp */,
+			);
+			path = cf485d2;
+			sourceTree = "<group>";
+		};
 		D5380B52208D540400EDF535 /* a2oj */ = {
 			isa = PBXGroup;
 			children = (
@@ -433,6 +449,7 @@
 		D563B4A52021840900C4890F /* codeforces */ = {
 			isa = PBXGroup;
 			children = (
+				D529D54120C6497F0007C117 /* cf485d2 */,
 				D578243820C1822700E2149A /* cf486d3 */,
 				D56D446520AFC6EE00E5A0AB /* cf484d2 */,
 				D5A93B3520A7BAC10070B138 /* cf480d2 */,
@@ -617,6 +634,9 @@
 		D5A87E84201DC1790038BE28 = {
 			isa = PBXGroup;
 			children = (
+				D529D53D20C6368C0007C117 /* input */,
+				D529D53E20C636D20007C117 /* output */,
+				D529D54020C6428D0007C117 /* slow-output */,
 				D5B856AB202E6554006554F6 /* general */,
 				D5E3B2212022AC1A006E3D62 /* leetcode */,
 				D563B4A52021840900C4890F /* codeforces */,
@@ -833,7 +853,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D557890320C4A7750083D2AE /* taskD.cp in Sources */,
+				D529D54920C653070007C117 /* taskC.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -955,6 +975,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/cpp.plist";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = "-Wl,-stack_size,0x10000000";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -972,6 +993,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				FRAMEWORK_SEARCH_PATHS = "";
 				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/cpp.plist";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = "-Wl,-stack_size,0x10000000";
 				PRODUCT_NAME = "$(TARGET_NAME)";

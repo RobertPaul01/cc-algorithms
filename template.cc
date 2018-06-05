@@ -8,5 +8,9 @@ typedef long double ld;
 typedef long long ll;
 
 int main() {
+    #ifdef DEBUG
+//    freopen("input", "r", stdin);
+//    freopen("output", "w", stdout);
+    #endif
     return 0;
 }

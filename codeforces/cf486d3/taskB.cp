@@ -17,28 +17,23 @@ int main() {
         v.push_back({s.size(), s});
     }
     sort(all(v));
-    bool pos = true;
     for (int i = 1; i < n; i++) {
         pair<int, string> cur = v[i];
         pair<int, string> prev = v[i - 1];
         auto f = cur.second.find(prev.second);
         if (prev.first == cur.first) {
             if (prev.second != cur.second) {
-                pos = false;
-                break;
+                printf("NO\n");
+                exit(0);
             }
         } else if (f == string::npos) {
-            pos = false;
-            break;
+            printf("NO\n");
+            exit(0);
         }
     }
-    if (!pos) {
-        printf("NO\n");
-    } else {
-        printf("YES\n");
-        forn(i, 0, n) {
-            printf("%s\n", v[i].second.c_str());
-        }
+    printf("YES\n");
+    forn(i, 0, n) {
+        printf("%s\n", v[i].second.c_str());
     }
     return 0;
 }
