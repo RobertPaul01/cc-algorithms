@@ -6,8 +6,8 @@ using namespace std;
 #define pll pair<ll, ll>
 typedef long double ld;
 typedef long long ll;
-void gen() {exit(0);}
 
+void gen() {exit(0);}
 int main() {
     #ifdef DEBUG
 //    freopen("input", "r", stdin);
