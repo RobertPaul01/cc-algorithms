@@ -62,6 +62,10 @@
 		D529D54420C649970007C117 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
 		D529D54620C6499A0007C117 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
 		D529D54B20C663930007C117 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
+		D52E270220CD4A2400739564 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
+		D52E270420CD4A2B00739564 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
+		D52E270620CD4A2E00739564 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
+		D52E270820CD4A3100739564 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
 		D5380B53208D542100EDF535 /* 432A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 432A.cp; sourceTree = "<group>"; };
 		D5380B55208D561D00EDF535 /* 136A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 136A.cp; sourceTree = "<group>"; };
 		D5380B57208D59ED00EDF535 /* 110A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 110A.cp; sourceTree = "<group>"; };
@@ -357,6 +361,17 @@
 			path = 485d2;
 			sourceTree = "<group>";
 		};
+		D52E270120CD4A1A00739564 /* abc099 */ = {
+			isa = PBXGroup;
+			children = (
+				D52E270220CD4A2400739564 /* taskA.cp */,
+				D52E270420CD4A2B00739564 /* taskB.cp */,
+				D52E270620CD4A2E00739564 /* taskC.cp */,
+				D52E270820CD4A3100739564 /* taskD.cp */,
+			);
+			path = abc099;
+			sourceTree = "<group>";
+		};
 		D5380B52208D540400EDF535 /* a2oj */ = {
 			isa = PBXGroup;
 			children = (
@@ -499,6 +514,7 @@
 		D569F074201EBDA1002721B9 /* atcoder */ = {
 			isa = PBXGroup;
 			children = (
+				D52E270120CD4A1A00739564 /* abc099 */,
 				D55788FB20C4147C0083D2AE /* agc025 */,
 				D510B05620B9377A00DAA397 /* abc098 */,
 				D56D447120AFDD9800E5A0AB /* agc024 */,
