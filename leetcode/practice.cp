@@ -14,33 +14,8 @@ public:
     ll MOD = 1e7;
     int rectangleArea(vector<vector<int>>& r) {
         int n = (int)r.size();
-        int total = 0;
-        for (int i = 0; i < n; i++) {
-            ll h = abs(r[i][0] - r[i][2]);
-            ll w = abs(r[i][1] - r[i][3]);
-            ll cur = (h * w);
-            cout << cur << endl;
-            total += cur;
-            total %= MOD;
-        }
-        for (int i = 0; i < n; i++) {
-            ll l = r[i][0];
-            ll b = r[i][1];
-            ll ri = r[i][2];
-            ll t = r[i][3];
-            for (int j = i + 1; j < n; j++) {
-                ll left = max(l, (ll)r[j][0]);
-                ll bottom = max(b, (ll)r[j][1]);
-                ll right = min(ri, (ll)r[j][2]);
-                ll top = min(t, (ll)r[j][3]);
-                if (left < right && bottom < top) {
-                    ll ar = ((right - left) * (top - bottom));
-                    cout << ar << endl;
-                    total -= ar;
-                }
-            }
-        }
-        return total;
+        
+        return 0;
     }
 };
 

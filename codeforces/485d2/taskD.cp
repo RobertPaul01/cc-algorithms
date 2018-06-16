@@ -61,7 +61,10 @@ int main() {
     
     for (int i = 0; i < n; i++) {
         nth_element(best[i].begin(), best[i].begin() + s, best[i].end());
-        int ans = accumulate(best[i].begin(), best[i].begin() + s, 0);
+        int ans = 0;
+        for (size_t j = 0; j < s; j++) {
+            ans += best[i][j];
+        }
         printf("%d ", ans);
     }
     return 0;
