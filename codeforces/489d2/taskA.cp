@@ -7,14 +7,22 @@ using namespace std;
 typedef long double ld;
 typedef long long ll;
 
-int m[307][307] = { 0 };
-
 void gen() {exit(0);}
 int main() {
     #ifdef DEBUG
     freopen("input", "r", stdin);
-    freopen("output", "w", stdout);
+//    freopen("output", "w", stdout);
 //    gen();
     #endif
+    int n;
+    scanf("%d", &n);
+    set<int> s;
+    forn(i, 0, n) {
+        int x;
+        scanf(" %d", &x);
+        if (x != 0)
+            s.insert(x);
+    }
+    printf("%d\n", (int)s.size());
     return 0;
 }
