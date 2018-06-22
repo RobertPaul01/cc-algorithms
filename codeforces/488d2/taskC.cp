@@ -6,15 +6,20 @@ using namespace std;
 #define pll pair<ll, ll>
 typedef long double ld;
 typedef long long ll;
-
-int m[307][307] = { 0 };
-
 void gen() {exit(0);}
+template <typename... Args>
+void dbg(Args... args) {
+    ((cout << args << " "), ...);
+    cout << endl;
+}
+
 int main() {
     #ifdef DEBUG
-    freopen("input", "r", stdin);
-    freopen("output", "w", stdout);
+//    freopen("input", "r", stdin);
+//    freopen("output", "w", stdout);
 //    gen();
     #endif
+    
     return 0;
 }
+
