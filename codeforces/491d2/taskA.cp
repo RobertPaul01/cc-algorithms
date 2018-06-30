@@ -6,12 +6,12 @@ using namespace std;
 #define pll pair<ll, ll>
 typedef long double ld;
 typedef long long ll;
+void gen() {exit(0);}
 template <typename... Args>
 void dbg(Args... args) {
     ((cout << args << " "), ...);
     cout << endl;
 }
-void gen() {exit(0);}
 
 int main() {
     #ifdef DEBUG
