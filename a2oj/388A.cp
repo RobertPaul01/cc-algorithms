@@ -6,38 +6,58 @@ using namespace std;
 #define pll pair<ll, ll>
 typedef long double ld;
 typedef long long ll;
+template <typename... Args>
+void dbg(Args... args) {
+    ((cout << args << " "), ...);
+    cout << endl;
+}
+void gen() {exit(0);}
+void load() {
+#ifdef DEBUG
+    freopen("input", "r", stdin);
+//    freopen("output", "w", stdout);
+//    gen();
+#endif
+}
 
-int main() {
+const int N = 107;
+int w[N];
+
+void solve() {
     int n;
     scanf("%d ", &n);
-    vector<int> w(n);
     forn(i, 0, n) {
-        scanf("%d", &w[i]);
+        int x;
+        scanf("%d", &x);
+        w[i] = x;
     }
-    sort(all(w));
-    vector<int> piles;
-    int end = 0;
-    for (int i = n - 1; i >= end; i--) {
-        int x = -1;
-        int mn = INT_MAX;
-        for (int j = 0; j < piles.size(); j++) {
-            int loss = piles[j] - w[i];
-            if (loss >= 0 && loss < mn) {
-                x = j;
-                mn = loss;
+    sort(w, w + n);
+    
+    int h = n;
+    int l = 1;
+    int k = (h + l) / 2;
+    while (h > l) {
+        bool good = true;
+        for (int i = 0; i < n; i++) {
+            if (w[i] < (i / k)) {
+                good = false;
+                break;
             }
         }
-        if (x != -1) {
-            piles[x] = min(piles[x], w[i]) - 1;
+        if (good) {
+            h = k;
         } else {
-            piles.push_back(w[i] - 1);
+            l = k + 1;
         }
-//        cout << w[i] << ":" << endl;
-//        for (int x : piles) {
-//            cout << x << " ";
-//        }
-//        cout << endl;
+        
+        k = (h + l) / 2;
     }
-    printf("%d\n", (int)piles.size());
+    
+    printf("%d\n", (int)k);
+}
+
+int main() {
+    load();
+    solve();
     return 0;
 }

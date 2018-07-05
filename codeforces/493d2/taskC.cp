@@ -12,20 +12,25 @@ void dbg(Args... args) {
     cout << endl;
 }
 void gen() {exit(0);}
-void load() {
-#ifdef DEBUG
-    freopen("input", "r", stdin);
-//    freopen("output", "w", stdout);
-//    gen();
-#endif
-}
 
-void solve() {
-    
+int n, x, y;
+int ans = 0;
+
+void dfs(string s) {
+
 }
 
 int main() {
-    load();
-    solve();
+    #ifdef DEBUG
+    freopen("input", "r", stdin);
+//    freopen("output", "w", stdout);
+//    gen();
+    #endif
+    scanf("%d %d %d ", &n, &x, &y);
+   
+    string s;
+    getline(cin, s);
+
+    printf("%d\n", ans);
     return 0;
 }

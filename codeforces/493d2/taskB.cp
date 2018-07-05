@@ -12,20 +12,13 @@ void dbg(Args... args) {
     cout << endl;
 }
 void gen() {exit(0);}
-void load() {
-#ifdef DEBUG
-    freopen("input", "r", stdin);
-//    freopen("output", "w", stdout);
-//    gen();
-#endif
-}
-
-void solve() {
-    
-}
 
 int main() {
-    load();
-    solve();
+    #ifdef DEBUG
+//    freopen("input", "r", stdin);
+//    freopen("output", "w", stdout);
+//    gen();
+    #endif
+    
     return 0;
 }
