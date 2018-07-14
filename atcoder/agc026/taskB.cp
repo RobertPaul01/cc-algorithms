@@ -14,18 +14,34 @@ void dbg(Args&&... args) {
 }
 void gen() {exit(0);}
 
-void input() {
+int t;
+ll nums[304][4];
 
+void input() {
+  scanf("%d", &t);
+  forn(i, 0, t) {
+    scanf(" %lld %lld %lld %lld", &nums[i][0], &nums[i][1], &nums[i][2], &nums[i][3]);
+  }
 }
 
 void solve() {
-    
+  forn(i, 0, t) {
+    ll a = nums[i][0];
+    ll b = nums[i][1];
+    ll c = nums[i][2];
+    ll d = nums[i][3];
+    if (a > b && d - b >= b - c) {
+      printf("yes\n");
+    } else {
+      printf("no\n");
+    }
+  }
 }
 
 int main() {
 #ifdef DEBUG
   freopen("input", "r", stdin);
-  //  freopen("output", "w", stdout);
+  freopen("output", "w", stdout);
   //  gen();
 #endif
   input();
