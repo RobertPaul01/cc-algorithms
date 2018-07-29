@@ -1,7 +1,4 @@
-#ifdef DEBUG
 #include "bits/stdc++.h"
-#include "parser.cp"
-#endif
 using namespace std;
 #define forn(i, x, n) for (int i = x; i < n; i++)
 #define all(a) (a).begin(), (a).end()
@@ -17,21 +14,33 @@ void dbg(Args&&... args) {
 }
 void gen() {exit(0);}
 
-class Solution {
-public:
-  int minPatches(vector<int>& nums, int n) {
-    int ans = 0;
-    return ans;
-  }
-};
+int n;
+const int N = 1000;
+int a[N];
 
-#ifdef DEBUG
-int main() {
-    Solution s;
-//    Parser p;
-//    freopen("input", "r", stdin);
-    vector<int> v = {1,3};
-    cout << s.minPatches(v, 6);
-    cout << endl;
+void input() {
+  scanf("%d", &n);
+  forn(i, 0, n) {
+    int x;
+    scanf(" %d", &x);
+    a[i] = x;
+  }
 }
+
+void solve() {
+  forn(i, 0, n) {
+    if (a[i] % 2 == 0) a[i]--;
+    printf("%d ", a[i]);
+  }
+}
+
+int main() {
+#ifdef DEBUG
+  freopen("input", "r", stdin);
+  //  freopen("output", "w", stdout);
+  //  gen();
 #endif
+  input();
+  solve();
+  return 0;
+}

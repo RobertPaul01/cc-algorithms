@@ -84,6 +84,20 @@ int catalan(int n, vector<int> &memo) {
     return memo[n];
 }
 
+void binarySearch() {
+  const int N = 100;
+  int a[N];
+  int l = 0, r = n;
+  while (r - l > 1) {
+    m = (l+r)/2;
+    if (a[m]) {
+      l = m
+    } else {
+      r = m
+    }
+  }
+}
+
 int main() {
     return 0;
 }
