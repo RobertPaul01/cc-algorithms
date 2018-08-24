@@ -6,10 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D52481F6210958B0008537F0 /* taskF.cp in Sources */ = {isa = PBXBuildFile; fileRef = D5C8B550210558AE00521C6E /* taskF.cp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		D5A87E8B201DC1790038BE28 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,266 +19,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		70566886207EF2120089488E /* taskF.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskF.cp; sourceTree = "<group>"; };
-		D500DAA32025F935003AE28B /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D500DAA62025FCA2003AE28B /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D500DAA82026018E003AE28B /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D507D2B9209453EC009225AA /* 437C.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 437C.cp; sourceTree = "<group>"; };
-		D507D2BC20949A00009225AA /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D508070C203F7038006E100A /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D508070E203FD45C006E100A /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D508944620520D8B000D0475 /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D508944820520D92000D0475 /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D508944A20520D9A000D0475 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D510B05720B9378200DAA397 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D510B05920B9378800DAA397 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D510B05B20B9378A00DAA397 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D510B05D20B9378D00DAA397 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D514075A20805C7C003D7A0F /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D514075D20819A0A003D7A0F /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D514075F20819A13003D7A0F /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D514076120819A16003D7A0F /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D514076320819A1D003D7A0F /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D516F93F209DD6240050E7F0 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D516F941209DD7530050E7F0 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D516F944209DDDA30050E7F0 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D516F946209DE1450050E7F0 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D519D66D2076FEF000B0DBA6 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D519D66F2076FF0D00B0DBA6 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D519D6712076FF1000B0DBA6 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D519D6732076FF1500B0DBA6 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D51CD11F205CE4E40089A113 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D51CD121205CE4EE0089A113 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D51CD123205CE4F30089A113 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D520DF4C2044F77300BA8338 /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D520DF4E2044F77B00BA8338 /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D520DF502044F78200BA8338 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D524B0342102E0550047105D /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D524B0372102ECA70047105D /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D524B0392102ECB30047105D /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D524B03B2102ECB60047105D /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D524B03D2102ECBA0047105D /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D525435F203C9729005115F9 /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D5254362203D2DB6005115F9 /* taskE.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cc; sourceTree = "<group>"; };
-		D526D0D120D8167F00CEE0E1 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D526D0D320D8168D00CEE0E1 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D526D0D520D8168F00CEE0E1 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
 		D529D53D20C6368C0007C117 /* input */ = {isa = PBXFileReference; lastKnownFileType = text; path = input; sourceTree = "<group>"; };
 		D529D53E20C636D20007C117 /* output */ = {isa = PBXFileReference; lastKnownFileType = text; path = output; sourceTree = "<group>"; };
 		D529D54020C6428D0007C117 /* slow-output */ = {isa = PBXFileReference; lastKnownFileType = text; path = "slow-output"; sourceTree = "<group>"; };
-		D529D54220C6498C0007C117 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D529D54420C649970007C117 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D529D54620C6499A0007C117 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D529D54B20C663930007C117 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D52C283D20E84B1100669B88 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D52C283F20E853FB00669B88 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D52E270220CD4A2400739564 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D52E270420CD4A2B00739564 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D52E270620CD4A2E00739564 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D52E270820CD4A3100739564 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D5380B53208D542100EDF535 /* 432A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 432A.cp; sourceTree = "<group>"; };
-		D5380B55208D561D00EDF535 /* 136A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 136A.cp; sourceTree = "<group>"; };
-		D5380B57208D59ED00EDF535 /* 110A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 110A.cp; sourceTree = "<group>"; };
-		D5380B59208D5DA100EDF535 /* 116A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 116A.cp; sourceTree = "<group>"; };
-		D5380B5B208D5EB700EDF535 /* 61A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 61A.cp; sourceTree = "<group>"; };
-		D5380B5D208D607900EDF535 /* 141A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 141A.cp; sourceTree = "<group>"; };
-		D5380B5F208D635500EDF535 /* 339B.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 339B.cp; sourceTree = "<group>"; };
-		D5380B61208D876300EDF535 /* 285A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 285A.cp; sourceTree = "<group>"; };
-		D5380B6B208D88EF00EDF535 /* 463B.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 463B.cp; sourceTree = "<group>"; };
-		D5380B6D208D8DFA00EDF535 /* 118B.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 118B.cp; sourceTree = "<group>"; };
-		D5380B6F208DBD3D00EDF535 /* 219A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 219A.cp; sourceTree = "<group>"; };
-		D5390CB4202BD39900199DD5 /* 16.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 16.cc; sourceTree = "<group>"; };
-		D5390CB6202BEE6D00199DD5 /* 46.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 46.cc; sourceTree = "<group>"; };
-		D53CF5F120D573AE00CEE2AE /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D53CF5F320D5753900CEE2AE /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D53CF5F520D5753D00CEE2AE /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D53CF5FA20D58F8B00CEE2AE /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D53CF5FC20D5937700CEE2AE /* taskE.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cp; sourceTree = "<group>"; };
-		D541292A20A70EF90012658F /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D541292C20A710150012658F /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D541292E20A711F20012658F /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D541293120A71D270012658F /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
 		D541293320A725FF0012658F /* dsu.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dsu.cc; sourceTree = "<group>"; };
-		D543DA7D20703DE80048D298 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D5443E8F207DCB0D00D20BAA /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5443E91207DCB4100D20BAA /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5443E93207DCB4500D20BAA /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D549CFA3204CF31B00B46A00 /* taskE.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cc; sourceTree = "<group>"; };
-		D551611320267C5400CC7DEA /* 775.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 775.cc; sourceTree = "<group>"; };
-		D5543898203B11ED0071BED9 /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D554389B203B12410071BED9 /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D554389D203B12480071BED9 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D557506E209F42450001849C /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5575070209F424D0001849C /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5575072209F42500001849C /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5575074209F42540001849C /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D557507B209F49E30001849C /* taskE.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cp; sourceTree = "<group>"; };
-		D557507D209F49E60001849C /* taskF.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskF.cp; sourceTree = "<group>"; };
-		D55788FC20C4148B0083D2AE /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D55788FE20C414900083D2AE /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D557890020C414930083D2AE /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D55F54C820EDB731005D1F84 /* 349A.cp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = 349A.cp; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; };
-		D55F54CA20EDD9E9005D1F84 /* 264A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 264A.cp; sourceTree = "<group>"; };
-		D56337302067C5B000D5823D /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D56337322067C5BD00D5823D /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D56337342067C5C000D5823D /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D56337362067C5C300D5823D /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D563B4AA2021851000C4890F /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D563B4AC2021879100C4890F /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D563B4AE202189B600C4890F /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D563B4B020219AA500C4890F /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D566CE8920F9C1C800F41B57 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D566CE8B20F9C36800F41B57 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D566CE8D20F9C36B00F41B57 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D566CE9120FA419500F41B57 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D566CE9320FA439200F41B57 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
 		D568888720CB9116001355FA /* parser.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parser.cp; sourceTree = "<group>"; };
-		D568888920CBA60B001355FA /* 847.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 847.cp; sourceTree = "<group>"; };
-		D568A1D120C8A0B8007042D0 /* taskE.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cp; sourceTree = "<group>"; };
-		D569F079201EBDBB002721B9 /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D569F07F201EBF17002721B9 /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D569F080201EBF17002721B9 /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D569F081201EBF17002721B9 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D56D446620AFC70100E5A0AB /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D56D446820AFC71200E5A0AB /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D56D446A20AFC71500E5A0AB /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
 		D56D446F20AFD81500E5A0AB /* dfs.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dfs.cp; sourceTree = "<group>"; };
-		D56D447220AFDDA900E5A0AB /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D56D447420AFDDAF00E5A0AB /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D56D447620AFDDB200E5A0AB /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D57001BD204BAA1E000FE75D /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D57001BF204BAA27000FE75D /* taskB.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D57001C0204BAA2C000FE75D /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D57001C2204BAA30000FE75D /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D57001C6204C1796000FE75D /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D57001C8204C186F000FE75D /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D57001CA204C1913000FE75D /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D57001CC204C2028000FE75D /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D57001D0204C2A7F000FE75D /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D57001D2204C2A88000FE75D /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D57001D4204C2A90000FE75D /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D57001D6204C2A95000FE75D /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D5766935204B4797002BF5E4 /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D5781DC920B121BA00F5FB53 /* 388A.cp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 388A.cp; sourceTree = "<group>"; tabWidth = 4; };
-		D578243920C18B5500E2149A /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D578243B20C18B6A00E2149A /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D578243D20C18B6D00E2149A /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D578243F20C18B7100E2149A /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D578244120C18B7600E2149A /* taskE.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cp; sourceTree = "<group>"; };
-		D578244320C18B7D00E2149A /* taskF.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskF.cp; sourceTree = "<group>"; };
-		D5798E7B2078EA390010DC5F /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5798E7D2078EA4C0010DC5F /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5798E7F2078EA500010DC5F /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5798E812078EA530010DC5F /* taskE.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cp; sourceTree = "<group>"; };
-		D57F88AB20A001A9007EF4CC /* 166A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 166A.cp; sourceTree = "<group>"; };
-		D57F88AE20A12F6C007EF4CC /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D57F88B020A12F73007EF4CC /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D57F88B220A12F76007EF4CC /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D57F88B420A12F79007EF4CC /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D580596A20D4D1A100BE1D44 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D580596C20D4D1A800BE1D44 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D580596E20D4D1AB00BE1D44 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D580597020D4D1AE00BE1D44 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D58924032030A1DE003314A4 /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D58924052030A1F8003314A4 /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D58924072030A1FF003314A4 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D58A389E20DFFD5E009F1ED4 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D58A38A020DFFD68009F1ED4 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D58A38A220DFFD6B009F1ED4 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D58A38A520E00836009F1ED4 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D58C2B0520DE0F500032E10B /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D58C2B0720DE0F580032E10B /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D58C2B0C20DE9F880032E10B /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D58C2B0E20DE9F910032E10B /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D58C2B1020DE9F940032E10B /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D58FDD04208EC28000B4F892 /* 270A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 270A.cp; sourceTree = "<group>"; };
-		D58FDD06208ECC3300B4F892 /* 58A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 58A.cp; sourceTree = "<group>"; };
-		D58FDD08208EFBB300B4F892 /* 501A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 501A.cp; sourceTree = "<group>"; };
-		D58FDD0A208EFD2A00B4F892 /* 160A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 160A.cp; sourceTree = "<group>"; };
-		D58FDD0C208F007F00B4F892 /* 337A.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 337A.cp; sourceTree = "<group>"; };
-		D59EBF0420537279009AED02 /* 389.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 389.cc; sourceTree = "<group>"; };
-		D59EBF072053747F009AED02 /* 390.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 390.cc; sourceTree = "<group>"; };
-		D59EBF0E2054906D009AED02 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D59EBF1020549078009AED02 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D59EBF122054907D009AED02 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D59EBF172054C60B009AED02 /* practice.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = practice.cp; sourceTree = "<group>"; usesTabs = 0; };
-		D5A0066620C996A600A0E8A3 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5A0066820C9970500A0E8A3 /* taskF.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskF.cp; sourceTree = "<group>"; };
-		D5A0066B20C9972500A0E8A3 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5A0066D20C9972900A0E8A3 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5A0066F20C9972C00A0E8A3 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D5A3AFC3209ED95F005E872A /* 363B.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 363B.cp; sourceTree = "<group>"; };
-		D5A3AFC5209EDE22005E872A /* 230B.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 230B.cp; sourceTree = "<group>"; };
-		D5A46E5F206670F5003C33DE /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5A46E6120667100003C33DE /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5A46E6320667103003C33DE /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
+		D59EBF172054C60B009AED02 /* leetcode.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode.cp; sourceTree = "<group>"; usesTabs = 0; };
 		D5A87E8D201DC1790038BE28 /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A87E90201DC1790038BE28 /* template.cc */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.cpp.cpp; path = template.cc; sourceTree = "<group>"; tabWidth = 2; };
-		D5A93B3620A7BACE0070B138 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5A93B3820A7BAE10070B138 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5A93B3A20A7BAE40070B138 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5A93B3C20A7BAE70070B138 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D5AD32102086F4AA0047F837 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5AD32122086F4B20047F837 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5AD32142086F4B50047F837 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5AD321C208B6A440047F837 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5AD321E208B6A4B0047F837 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5AD3220208B6A4E0047F837 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5AD3222208B6A500047F837 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D5AD708A205D3CFA00460C50 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5AD708F205D6F4D00460C50 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
 		D5B856AC202E6570006554F6 /* functions.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = functions.cc; sourceTree = "<group>"; };
-		D5B856B0202F96F9006554F6 /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D5B856B2202FA37C006554F6 /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D5B856B4202FA7CB006554F6 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D5B856B8202FB08B006554F6 /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D5B856BC202FD8A9006554F6 /* taskE.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cc; sourceTree = "<group>"; };
-		D5B856BE202FF4F6006554F6 /* taskF.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskF.cc; sourceTree = "<group>"; };
-		D5BAB140208FFDD900004453 /* 414B.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 414B.cp; sourceTree = "<group>"; };
-		D5BC4007206FDA2C00966C4F /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5BC4009206FDA3300966C4F /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5BC400C2070018C00966C4F /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5BE33E52094A5F200D6B420 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5BE33E72094B22400D6B420 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5C7C6DD202461DA00B3F4C5 /* taskE.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cc; sourceTree = "<group>"; };
-		D5C7C6DF2024626F00B3F4C5 /* 49.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 49.cc; sourceTree = "<group>"; };
-		D5C8B54321053F5A00521C6E /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5C8B54521053F5F00521C6E /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5C8B54721053F6100521C6E /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5C8B54921053F6400521C6E /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D5C8B54E210558AB00521C6E /* taskE.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cp; sourceTree = "<group>"; };
-		D5C8B550210558AE00521C6E /* taskF.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskF.cp; sourceTree = "<group>"; };
-		D5C9A17F2082255C00066249 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5C9A1812082256300066249 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5C9A1832082256600066249 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5C9A1852082256B00066249 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D5C9A18A2082420200066249 /* taskE.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cp; sourceTree = "<group>"; };
-		D5C9A18E2083DE2C00066249 /* 818.cp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 818.cp; sourceTree = "<group>"; };
-		D5C9A1912084332400066249 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5DB8EFB20DC879900F200A9 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5DB8EFD20DC87CA00F200A9 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5DB8EFF20DC87CD00F200A9 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5DB8F0120DC87D000F200A9 /* taskD.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cp; sourceTree = "<group>"; };
-		D5DB8F0320DC87D700F200A9 /* taskE.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cp; sourceTree = "<group>"; };
-		D5DB8F0520DC87DA00F200A9 /* taskF.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskF.cp; sourceTree = "<group>"; };
-		D5DDE00420EC9684004A4F44 /* taskA.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cp; sourceTree = "<group>"; };
-		D5DDE00620EC968E004A4F44 /* taskB.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cp; sourceTree = "<group>"; };
-		D5DDE00820EC9691004A4F44 /* taskC.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cp; sourceTree = "<group>"; };
-		D5DDEAD320368948007A5A50 /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D5DFD0EB2043527600F1CB7A /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D5DFD0ED2043D29D00F1CB7A /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D5E3B21F2022ABB8006E3D62 /* taskE.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskE.cc; sourceTree = "<group>"; };
-		D5E3B2222022AC33006E3D62 /* 207.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 207.cc; sourceTree = "<group>"; };
-		D5E3B2232022AC33006E3D62 /* 221.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 221.cc; sourceTree = "<group>"; };
-		D5E3B2242022AC33006E3D62 /* 206.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 206.cc; sourceTree = "<group>"; };
-		D5E3B2252022AC33006E3D62 /* 238.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 238.cc; sourceTree = "<group>"; };
-		D5E3B2262022AC33006E3D62 /* 155.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 155.cc; sourceTree = "<group>"; };
-		D5E3B2272022AC33006E3D62 /* 48.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 48.cc; sourceTree = "<group>"; };
-		D5E3B2332022F660006E3D62 /* taskA.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskA.cc; sourceTree = "<group>"; };
-		D5E3B2352022F98E006E3D62 /* taskB.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskB.cc; sourceTree = "<group>"; };
-		D5E3B2372022FC44006E3D62 /* taskC.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskC.cc; sourceTree = "<group>"; };
-		D5E3B23A202307F2006E3D62 /* taskD.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = taskD.cc; sourceTree = "<group>"; };
-		D5E4F02920257FCA00B9F050 /* 740.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 740.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,574 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D500DAA52025F952003AE28B /* pc001 */ = {
-			isa = PBXGroup;
-			children = (
-				D500DAA32025F935003AE28B /* taskA.cc */,
-				D500DAA62025FCA2003AE28B /* taskB.cc */,
-				D500DAA82026018E003AE28B /* taskC.cc */,
-			);
-			path = pc001;
-			sourceTree = "<group>";
-		};
-		D507D2BB209499F4009225AA /* agc023 */ = {
-			isa = PBXGroup;
-			children = (
-				D507D2BC20949A00009225AA /* taskA.cp */,
-				D5BE33E52094A5F200D6B420 /* taskB.cp */,
-				D5BE33E72094B22400D6B420 /* taskC.cp */,
-			);
-			path = agc023;
-			sourceTree = "<group>";
-		};
-		D508944520520D74000D0475 /* 467d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D508944620520D8B000D0475 /* taskA.cc */,
-				D508944820520D92000D0475 /* taskB.cc */,
-				D508944A20520D9A000D0475 /* taskC.cc */,
-			);
-			path = 467d2;
-			sourceTree = "<group>";
-		};
-		D510B05620B9377A00DAA397 /* abc098 */ = {
-			isa = PBXGroup;
-			children = (
-				D510B05720B9378200DAA397 /* taskA.cp */,
-				D510B05920B9378800DAA397 /* taskB.cp */,
-				D510B05B20B9378A00DAA397 /* taskC.cp */,
-				D510B05D20B9378D00DAA397 /* taskD.cp */,
-			);
-			path = abc098;
-			sourceTree = "<group>";
-		};
-		D514075C208199FF003D7A0F /* 455d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D514075D20819A0A003D7A0F /* taskA.cp */,
-				D514075F20819A13003D7A0F /* taskB.cp */,
-				D514076120819A16003D7A0F /* taskC.cp */,
-				D514076320819A1D003D7A0F /* taskD.cp */,
-			);
-			path = 455d2;
-			sourceTree = "<group>";
-		};
-		D516F93E209DD61B0050E7F0 /* abc096 */ = {
-			isa = PBXGroup;
-			children = (
-				D516F93F209DD6240050E7F0 /* taskA.cp */,
-				D516F941209DD7530050E7F0 /* taskB.cp */,
-				D516F944209DDDA30050E7F0 /* taskC.cp */,
-				D516F946209DE1450050E7F0 /* taskD.cp */,
-			);
-			path = abc096;
-			sourceTree = "<group>";
-		};
-		D519D66C2076FEE600B0DBA6 /* 473d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D519D66D2076FEF000B0DBA6 /* taskA.cp */,
-				D519D66F2076FF0D00B0DBA6 /* taskB.cp */,
-				D519D6712076FF1000B0DBA6 /* taskC.cp */,
-				D519D6732076FF1500B0DBA6 /* taskD.cp */,
-			);
-			path = 473d2;
-			sourceTree = "<group>";
-		};
-		D51CD11E205CE4D40089A113 /* 469d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D51CD11F205CE4E40089A113 /* taskA.cp */,
-				D51CD121205CE4EE0089A113 /* taskB.cp */,
-				D51CD123205CE4F30089A113 /* taskC.cp */,
-			);
-			path = 469d2;
-			sourceTree = "<group>";
-		};
-		D520DF4B2044F75A00BA8338 /* 464d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D520DF4C2044F77300BA8338 /* taskA.cc */,
-				D520DF4E2044F77B00BA8338 /* taskB.cc */,
-				D520DF502044F78200BA8338 /* taskC.cc */,
-				D5766935204B4797002BF5E4 /* taskD.cc */,
-			);
-			path = 464d2;
-			sourceTree = "<group>";
-		};
-		D524B0332102E0320047105D /* abc102 */ = {
-			isa = PBXGroup;
-			children = (
-				D524B0342102E0550047105D /* taskD.cp */,
-			);
-			path = abc102;
-			sourceTree = "<group>";
-		};
-		D524B0362102EC9F0047105D /* abc103 */ = {
-			isa = PBXGroup;
-			children = (
-				D524B0372102ECA70047105D /* taskA.cp */,
-				D524B0392102ECB30047105D /* taskB.cp */,
-				D524B03B2102ECB60047105D /* taskC.cp */,
-				D524B03D2102ECBA0047105D /* taskD.cp */,
-			);
-			path = abc103;
-			sourceTree = "<group>";
-		};
-		D5254364203F6FB5005115F9 /* 462d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D508070C203F7038006E100A /* taskA.cc */,
-				D508070E203FD45C006E100A /* taskB.cc */,
-				D5DFD0EB2043527600F1CB7A /* taskC.cc */,
-				D5DFD0ED2043D29D00F1CB7A /* taskD.cc */,
-			);
-			path = 462d2;
-			sourceTree = "<group>";
-		};
-		D526D0D020D8167600CEE0E1 /* 489d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D526D0D120D8167F00CEE0E1 /* taskA.cp */,
-				D526D0D320D8168D00CEE0E1 /* taskB.cp */,
-				D526D0D520D8168F00CEE0E1 /* taskC.cp */,
-			);
-			path = 489d2;
-			sourceTree = "<group>";
-		};
-		D529D54120C6497F0007C117 /* 485d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D529D54220C6498C0007C117 /* taskA.cp */,
-				D529D54420C649970007C117 /* taskB.cp */,
-				D529D54620C6499A0007C117 /* taskC.cp */,
-				D529D54B20C663930007C117 /* taskD.cp */,
-				D568A1D120C8A0B8007042D0 /* taskE.cp */,
-				D5A0066820C9970500A0E8A3 /* taskF.cp */,
-			);
-			path = 485d2;
-			sourceTree = "<group>";
-		};
-		D52C283C20E84AEA00669B88 /* e46d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D52C283D20E84B1100669B88 /* taskA.cp */,
-				D52C283F20E853FB00669B88 /* taskB.cp */,
-			);
-			path = e46d2;
-			sourceTree = "<group>";
-		};
-		D52E270120CD4A1A00739564 /* abc099 */ = {
-			isa = PBXGroup;
-			children = (
-				D52E270220CD4A2400739564 /* taskA.cp */,
-				D52E270420CD4A2B00739564 /* taskB.cp */,
-				D52E270620CD4A2E00739564 /* taskC.cp */,
-				D52E270820CD4A3100739564 /* taskD.cp */,
-			);
-			path = abc099;
-			sourceTree = "<group>";
-		};
-		D5380B52208D540400EDF535 /* a2oj */ = {
-			isa = PBXGroup;
-			children = (
-				D5380B53208D542100EDF535 /* 432A.cp */,
-				D5380B55208D561D00EDF535 /* 136A.cp */,
-				D5380B57208D59ED00EDF535 /* 110A.cp */,
-				D5380B59208D5DA100EDF535 /* 116A.cp */,
-				D5380B5D208D607900EDF535 /* 141A.cp */,
-				D5380B5B208D5EB700EDF535 /* 61A.cp */,
-				D5380B61208D876300EDF535 /* 285A.cp */,
-				D5380B5F208D635500EDF535 /* 339B.cp */,
-				D5380B6B208D88EF00EDF535 /* 463B.cp */,
-				D5380B6D208D8DFA00EDF535 /* 118B.cp */,
-				D5380B6F208DBD3D00EDF535 /* 219A.cp */,
-				D58FDD04208EC28000B4F892 /* 270A.cp */,
-				D58FDD06208ECC3300B4F892 /* 58A.cp */,
-				D58FDD08208EFBB300B4F892 /* 501A.cp */,
-				D58FDD0A208EFD2A00B4F892 /* 160A.cp */,
-				D58FDD0C208F007F00B4F892 /* 337A.cp */,
-				D5BAB140208FFDD900004453 /* 414B.cp */,
-				D507D2B9209453EC009225AA /* 437C.cp */,
-				D5A3AFC3209ED95F005E872A /* 363B.cp */,
-				D5A3AFC5209EDE22005E872A /* 230B.cp */,
-				D57F88AB20A001A9007EF4CC /* 166A.cp */,
-				D5781DC920B121BA00F5FB53 /* 388A.cp */,
-				D55F54C820EDB731005D1F84 /* 349A.cp */,
-				D55F54CA20EDD9E9005D1F84 /* 264A.cp */,
-			);
-			path = a2oj;
-			sourceTree = "<group>";
-		};
-		D53CF5F020D573A200CEE2AE /* 488d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D53CF5F120D573AE00CEE2AE /* taskA.cp */,
-				D53CF5F520D5753D00CEE2AE /* taskB.cp */,
-				D53CF5F320D5753900CEE2AE /* taskC.cp */,
-				D53CF5FA20D58F8B00CEE2AE /* taskD.cp */,
-				D53CF5FC20D5937700CEE2AE /* taskE.cp */,
-			);
-			path = 488d2;
-			sourceTree = "<group>";
-		};
-		D541292920A70EEF0012658F /* abc097 */ = {
-			isa = PBXGroup;
-			children = (
-				D541292A20A70EF90012658F /* taskA.cp */,
-				D541292C20A710150012658F /* taskB.cp */,
-				D541292E20A711F20012658F /* taskC.cp */,
-				D541293120A71D270012658F /* taskD.cp */,
-			);
-			path = abc097;
-			sourceTree = "<group>";
-		};
-		D5443E8E207DCAFE00D20BAA /* e41d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D5443E8F207DCB0D00D20BAA /* taskA.cp */,
-				D5443E91207DCB4100D20BAA /* taskB.cp */,
-				D5443E93207DCB4500D20BAA /* taskC.cp */,
-				D514075A20805C7C003D7A0F /* taskD.cp */,
-			);
-			path = e41d2;
-			sourceTree = "<group>";
-		};
-		D554389A203B12000071BED9 /* e35d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D5543898203B11ED0071BED9 /* taskA.cc */,
-				D554389B203B12410071BED9 /* taskB.cc */,
-				D554389D203B12480071BED9 /* taskC.cc */,
-				D525435F203C9729005115F9 /* taskD.cc */,
-				D5254362203D2DB6005115F9 /* taskE.cc */,
-			);
-			path = e35d2;
-			sourceTree = "<group>";
-		};
-		D557506D209F42330001849C /* 479d3 */ = {
-			isa = PBXGroup;
-			children = (
-				D557506E209F42450001849C /* taskA.cp */,
-				D5575070209F424D0001849C /* taskB.cp */,
-				D5575072209F42500001849C /* taskC.cp */,
-				D5575074209F42540001849C /* taskD.cp */,
-				D557507B209F49E30001849C /* taskE.cp */,
-				D557507D209F49E60001849C /* taskF.cp */,
-			);
-			path = 479d3;
-			sourceTree = "<group>";
-		};
-		D55788FB20C4147C0083D2AE /* agc025 */ = {
-			isa = PBXGroup;
-			children = (
-				D55788FC20C4148B0083D2AE /* taskA.cp */,
-				D55788FE20C414900083D2AE /* taskB.cp */,
-				D557890020C414930083D2AE /* taskC.cp */,
-			);
-			path = agc025;
-			sourceTree = "<group>";
-		};
-		D563372F2067C5A400D5823D /* abc092 */ = {
-			isa = PBXGroup;
-			children = (
-				D56337302067C5B000D5823D /* taskA.cp */,
-				D56337322067C5BD00D5823D /* taskB.cp */,
-				D56337342067C5C000D5823D /* taskC.cp */,
-				D56337362067C5C300D5823D /* taskD.cp */,
-			);
-			path = abc092;
-			sourceTree = "<group>";
-		};
-		D563B4A52021840900C4890F /* codeforces */ = {
-			isa = PBXGroup;
-			children = (
-				D566CE9020FA418500F41B57 /* e47d2 */,
-				D5DDE00320EC9671004A4F44 /* 493d2 */,
-				D52C283C20E84AEA00669B88 /* e46d2 */,
-				D58A389D20DFFD52009F1ED4 /* 492d2 */,
-				D58C2B0B20DE9F7B0032E10B /* 491d2 */,
-				D5DB8EFA20DC872300F200A9 /* 490d3 */,
-				D526D0D020D8167600CEE0E1 /* 489d2 */,
-				D53CF5F020D573A200CEE2AE /* 488d2 */,
-				D529D54120C6497F0007C117 /* 485d2 */,
-				D578243820C1822700E2149A /* 486d3 */,
-				D56D446520AFC6EE00E5A0AB /* 484d2 */,
-				D5A93B3520A7BAC10070B138 /* 480d2 */,
-				D57F88AD20A12F5D007EF4CC /* 478d2 */,
-				D557506D209F42330001849C /* 479d3 */,
-				D5AD320F2086F4980047F837 /* 475d2 */,
-				D514075C208199FF003D7A0F /* 455d2 */,
-				D5443E8E207DCAFE00D20BAA /* e41d2 */,
-				D519D66C2076FEE600B0DBA6 /* 473d2 */,
-				D5A46E5E206670E6003C33DE /* 471d2 */,
-				D5AD708E205D6D2B00460C50 /* vk */,
-				D51CD11E205CE4D40089A113 /* 469d2 */,
-				D59EBF0D2054902A009AED02 /* 470d2 */,
-				D57001CF204C2A6E000FE75D /* 468d2 */,
-				D508944520520D74000D0475 /* 467d2 */,
-				D57001BC204BAA0C000FE75D /* 465d2 */,
-				D520DF4B2044F75A00BA8338 /* 464d2 */,
-				D5254364203F6FB5005115F9 /* 462d2 */,
-				D554389A203B12000071BED9 /* e35d2 */,
-				D5B856AF202F969F006554F6 /* 461d2 */,
-				D5E3B22F2022F64A006E3D62 /* 460d2 */,
-				D563B4A6202184BA00C4890F /* 459d2 */,
-				D58924022030A1A3003314A4 /* 456d2 */,
-			);
-			path = codeforces;
-			sourceTree = "<group>";
-		};
-		D563B4A6202184BA00C4890F /* 459d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D563B4AA2021851000C4890F /* taskA.cc */,
-				D563B4AC2021879100C4890F /* taskB.cc */,
-				D563B4AE202189B600C4890F /* taskC.cc */,
-				D563B4B020219AA500C4890F /* taskD.cc */,
-			);
-			path = 459d2;
-			sourceTree = "<group>";
-		};
-		D566CE8820F9C1BA00F41B57 /* agc026 */ = {
-			isa = PBXGroup;
-			children = (
-				D566CE8920F9C1C800F41B57 /* taskA.cp */,
-				D566CE8B20F9C36800F41B57 /* taskB.cp */,
-				D566CE8D20F9C36B00F41B57 /* taskC.cp */,
-			);
-			path = agc026;
-			sourceTree = "<group>";
-		};
-		D566CE9020FA418500F41B57 /* e47d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D566CE9120FA419500F41B57 /* taskA.cp */,
-				D566CE9320FA439200F41B57 /* taskB.cp */,
-			);
-			path = e47d2;
-			sourceTree = "<group>";
-		};
-		D569F074201EBDA1002721B9 /* atcoder */ = {
-			isa = PBXGroup;
-			children = (
-				D524B0362102EC9F0047105D /* abc103 */,
-				D524B0332102E0320047105D /* abc102 */,
-				D566CE8820F9C1BA00F41B57 /* agc026 */,
-				D58C2B0420DE0F470032E10B /* arc099 */,
-				D580596920D4D19700BE1D44 /* abc100 */,
-				D52E270120CD4A1A00739564 /* abc099 */,
-				D55788FB20C4147C0083D2AE /* agc025 */,
-				D510B05620B9377A00DAA397 /* abc098 */,
-				D56D447120AFDD9800E5A0AB /* agc024 */,
-				D541292920A70EEF0012658F /* abc097 */,
-				D516F93E209DD61B0050E7F0 /* abc096 */,
-				D507D2BB209499F4009225AA /* agc023 */,
-				D5AD321B208B6A3A0047F837 /* abc095 */,
-				D5C9A17E2082254F00066249 /* abc094 */,
-				D5798E7A2078EA2F0010DC5F /* abc093 */,
-				D5BC4006206FDA2500966C4F /* agc022 */,
-				D563372F2067C5A400D5823D /* abc092 */,
-				D5AD7089205D3CE400460C50 /* arc092 */,
-				D57001C5204C177B000FE75D /* abc089 */,
-				D500DAA52025F952003AE28B /* pc001 */,
-				D5E3B21E2022AB99006E3D62 /* abc087 */,
-				D5A0066520C9968500A0E8A3 /* abc079 */,
-			);
-			path = atcoder;
-			sourceTree = "<group>";
-		};
-		D56D446520AFC6EE00E5A0AB /* 484d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D56D446620AFC70100E5A0AB /* taskA.cp */,
-				D56D446820AFC71200E5A0AB /* taskB.cp */,
-				D56D446A20AFC71500E5A0AB /* taskC.cp */,
-			);
-			path = 484d2;
-			sourceTree = "<group>";
-		};
-		D56D447120AFDD9800E5A0AB /* agc024 */ = {
-			isa = PBXGroup;
-			children = (
-				D56D447220AFDDA900E5A0AB /* taskA.cp */,
-				D56D447420AFDDAF00E5A0AB /* taskB.cp */,
-				D56D447620AFDDB200E5A0AB /* taskC.cp */,
-			);
-			path = agc024;
-			sourceTree = "<group>";
-		};
-		D57001BC204BAA0C000FE75D /* 465d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D57001BD204BAA1E000FE75D /* taskA.cc */,
-				D57001BF204BAA27000FE75D /* taskB.cc */,
-				D57001C0204BAA2C000FE75D /* taskC.cc */,
-				D57001C2204BAA30000FE75D /* taskD.cc */,
-			);
-			path = 465d2;
-			sourceTree = "<group>";
-		};
-		D57001C5204C177B000FE75D /* abc089 */ = {
-			isa = PBXGroup;
-			children = (
-				D57001C6204C1796000FE75D /* taskA.cc */,
-				D57001C8204C186F000FE75D /* taskB.cc */,
-				D57001CA204C1913000FE75D /* taskC.cc */,
-				D57001CC204C2028000FE75D /* taskD.cc */,
-			);
-			path = abc089;
-			sourceTree = "<group>";
-		};
-		D57001CF204C2A6E000FE75D /* 468d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D57001D0204C2A7F000FE75D /* taskA.cc */,
-				D57001D2204C2A88000FE75D /* taskB.cc */,
-				D57001D4204C2A90000FE75D /* taskC.cc */,
-				D57001D6204C2A95000FE75D /* taskD.cc */,
-				D549CFA3204CF31B00B46A00 /* taskE.cc */,
-			);
-			path = 468d2;
-			sourceTree = "<group>";
-		};
-		D578243820C1822700E2149A /* 486d3 */ = {
-			isa = PBXGroup;
-			children = (
-				D578243920C18B5500E2149A /* taskA.cp */,
-				D578243B20C18B6A00E2149A /* taskB.cp */,
-				D578243D20C18B6D00E2149A /* taskC.cp */,
-				D578243F20C18B7100E2149A /* taskD.cp */,
-				D578244120C18B7600E2149A /* taskE.cp */,
-				D578244320C18B7D00E2149A /* taskF.cp */,
-			);
-			path = 486d3;
-			sourceTree = "<group>";
-		};
-		D5798E7A2078EA2F0010DC5F /* abc093 */ = {
-			isa = PBXGroup;
-			children = (
-				D5798E7B2078EA390010DC5F /* taskA.cp */,
-				D5798E7D2078EA4C0010DC5F /* taskB.cp */,
-				D5798E7F2078EA500010DC5F /* taskC.cp */,
-				D5798E812078EA530010DC5F /* taskE.cp */,
-				70566886207EF2120089488E /* taskF.cp */,
-			);
-			path = abc093;
-			sourceTree = "<group>";
-		};
-		D57F88AD20A12F5D007EF4CC /* 478d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D57F88AE20A12F6C007EF4CC /* taskA.cp */,
-				D57F88B020A12F73007EF4CC /* taskB.cp */,
-				D57F88B220A12F76007EF4CC /* taskC.cp */,
-				D57F88B420A12F79007EF4CC /* taskD.cp */,
-			);
-			path = 478d2;
-			sourceTree = "<group>";
-		};
-		D580596920D4D19700BE1D44 /* abc100 */ = {
-			isa = PBXGroup;
-			children = (
-				D580596A20D4D1A100BE1D44 /* taskA.cp */,
-				D580596C20D4D1A800BE1D44 /* taskB.cp */,
-				D580596E20D4D1AB00BE1D44 /* taskC.cp */,
-				D580597020D4D1AE00BE1D44 /* taskD.cp */,
-			);
-			path = abc100;
-			sourceTree = "<group>";
-		};
-		D58924022030A1A3003314A4 /* 456d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D58924032030A1DE003314A4 /* taskA.cc */,
-				D58924052030A1F8003314A4 /* taskB.cc */,
-				D58924072030A1FF003314A4 /* taskC.cc */,
-				D5DDEAD320368948007A5A50 /* taskD.cc */,
-			);
-			path = 456d2;
-			sourceTree = "<group>";
-		};
-		D58A389D20DFFD52009F1ED4 /* 492d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D58A389E20DFFD5E009F1ED4 /* taskA.cp */,
-				D58A38A020DFFD68009F1ED4 /* taskB.cp */,
-				D58A38A220DFFD6B009F1ED4 /* taskC.cp */,
-				D58A38A520E00836009F1ED4 /* taskD.cp */,
-			);
-			path = 492d2;
-			sourceTree = "<group>";
-		};
-		D58C2B0420DE0F470032E10B /* arc099 */ = {
-			isa = PBXGroup;
-			children = (
-				D58C2B0520DE0F500032E10B /* taskC.cp */,
-				D58C2B0720DE0F580032E10B /* taskD.cp */,
-			);
-			path = arc099;
-			sourceTree = "<group>";
-		};
-		D58C2B0B20DE9F7B0032E10B /* 491d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D58C2B0C20DE9F880032E10B /* taskA.cp */,
-				D58C2B0E20DE9F910032E10B /* taskB.cp */,
-				D58C2B1020DE9F940032E10B /* taskC.cp */,
-			);
-			path = 491d2;
-			sourceTree = "<group>";
-		};
-		D59EBF0D2054902A009AED02 /* 470d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D59EBF0E2054906D009AED02 /* taskA.cp */,
-				D59EBF1020549078009AED02 /* taskB.cp */,
-				D59EBF122054907D009AED02 /* taskC.cp */,
-			);
-			path = 470d2;
-			sourceTree = "<group>";
-		};
-		D5A0066520C9968500A0E8A3 /* abc079 */ = {
-			isa = PBXGroup;
-			children = (
-				D5A0066620C996A600A0E8A3 /* taskA.cp */,
-				D5A0066B20C9972500A0E8A3 /* taskB.cp */,
-				D5A0066D20C9972900A0E8A3 /* taskC.cp */,
-				D5A0066F20C9972C00A0E8A3 /* taskD.cp */,
-			);
-			path = abc079;
-			sourceTree = "<group>";
-		};
-		D5A46E5E206670E6003C33DE /* 471d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D5A46E5F206670F5003C33DE /* taskA.cp */,
-				D5A46E6120667100003C33DE /* taskB.cp */,
-				D5A46E6320667103003C33DE /* taskC.cp */,
-			);
-			path = 471d2;
-			sourceTree = "<group>";
-		};
 		D5A87E84201DC1790038BE28 = {
 			isa = PBXGroup;
 			children = (
 				D5A87E90201DC1790038BE28 /* template.cc */,
-				D5C8B54321053F5A00521C6E /* taskA.cp */,
-				D5C8B54521053F5F00521C6E /* taskB.cp */,
-				D5C8B54721053F6100521C6E /* taskC.cp */,
-				D5C8B54921053F6400521C6E /* taskD.cp */,
-				D5C8B54E210558AB00521C6E /* taskE.cp */,
-				D5C8B550210558AE00521C6E /* taskF.cp */,
 				D529D53D20C6368C0007C117 /* input */,
 				D529D53E20C636D20007C117 /* output */,
 				D529D54020C6428D0007C117 /* slow-output */,
 				D5B856AB202E6554006554F6 /* general */,
 				D5E3B2212022AC1A006E3D62 /* leetcode */,
-				D563B4A52021840900C4890F /* codeforces */,
-				D569F074201EBDA1002721B9 /* atcoder */,
-				D5380B52208D540400EDF535 /* a2oj */,
 				D5A87E8E201DC1790038BE28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -876,55 +63,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5A93B3520A7BAC10070B138 /* 480d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D5A93B3620A7BACE0070B138 /* taskA.cp */,
-				D5A93B3820A7BAE10070B138 /* taskB.cp */,
-				D5A93B3A20A7BAE40070B138 /* taskC.cp */,
-				D5A93B3C20A7BAE70070B138 /* taskD.cp */,
-			);
-			path = 480d2;
-			sourceTree = "<group>";
-		};
-		D5AD320F2086F4980047F837 /* 475d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D5AD32102086F4AA0047F837 /* taskA.cp */,
-				D5AD32122086F4B20047F837 /* taskB.cp */,
-				D5AD32142086F4B50047F837 /* taskC.cp */,
-			);
-			path = 475d2;
-			sourceTree = "<group>";
-		};
-		D5AD321B208B6A3A0047F837 /* abc095 */ = {
-			isa = PBXGroup;
-			children = (
-				D5AD321C208B6A440047F837 /* taskA.cp */,
-				D5AD321E208B6A4B0047F837 /* taskB.cp */,
-				D5AD3220208B6A4E0047F837 /* taskC.cp */,
-				D5AD3222208B6A500047F837 /* taskD.cp */,
-			);
-			path = abc095;
-			sourceTree = "<group>";
-		};
-		D5AD7089205D3CE400460C50 /* arc092 */ = {
-			isa = PBXGroup;
-			children = (
-				D5AD708A205D3CFA00460C50 /* taskA.cp */,
-			);
-			path = arc092;
-			sourceTree = "<group>";
-		};
-		D5AD708E205D6D2B00460C50 /* vk */ = {
-			isa = PBXGroup;
-			children = (
-				D5AD708F205D6F4D00460C50 /* taskA.cp */,
-				D5C9A1912084332400066249 /* taskB.cp */,
-			);
-			path = vk;
-			sourceTree = "<group>";
-		};
 		D5B856AB202E6554006554F6 /* general */ = {
 			isa = PBXGroup;
 			children = (
@@ -935,111 +73,13 @@
 			path = general;
 			sourceTree = "<group>";
 		};
-		D5B856AF202F969F006554F6 /* 461d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D5B856B0202F96F9006554F6 /* taskA.cc */,
-				D5B856B2202FA37C006554F6 /* taskB.cc */,
-				D5B856B4202FA7CB006554F6 /* taskC.cc */,
-				D5B856B8202FB08B006554F6 /* taskD.cc */,
-				D5B856BC202FD8A9006554F6 /* taskE.cc */,
-				D5B856BE202FF4F6006554F6 /* taskF.cc */,
-			);
-			path = 461d2;
-			sourceTree = "<group>";
-		};
-		D5BC4006206FDA2500966C4F /* agc022 */ = {
-			isa = PBXGroup;
-			children = (
-				D5BC4007206FDA2C00966C4F /* taskA.cp */,
-				D5BC4009206FDA3300966C4F /* taskB.cp */,
-				D5BC400C2070018C00966C4F /* taskC.cp */,
-				D543DA7D20703DE80048D298 /* taskD.cp */,
-			);
-			path = agc022;
-			sourceTree = "<group>";
-		};
-		D5C9A17E2082254F00066249 /* abc094 */ = {
-			isa = PBXGroup;
-			children = (
-				D5C9A17F2082255C00066249 /* taskA.cp */,
-				D5C9A1812082256300066249 /* taskB.cp */,
-				D5C9A1832082256600066249 /* taskC.cp */,
-				D5C9A1852082256B00066249 /* taskD.cp */,
-				D5C9A18A2082420200066249 /* taskE.cp */,
-			);
-			path = abc094;
-			sourceTree = "<group>";
-		};
-		D5DB8EFA20DC872300F200A9 /* 490d3 */ = {
-			isa = PBXGroup;
-			children = (
-				D5DB8EFB20DC879900F200A9 /* taskA.cp */,
-				D5DB8EFD20DC87CA00F200A9 /* taskB.cp */,
-				D5DB8EFF20DC87CD00F200A9 /* taskC.cp */,
-				D5DB8F0120DC87D000F200A9 /* taskD.cp */,
-				D5DB8F0320DC87D700F200A9 /* taskE.cp */,
-				D5DB8F0520DC87DA00F200A9 /* taskF.cp */,
-			);
-			path = 490d3;
-			sourceTree = "<group>";
-		};
-		D5DDE00320EC9671004A4F44 /* 493d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D5DDE00420EC9684004A4F44 /* taskA.cp */,
-				D5DDE00620EC968E004A4F44 /* taskB.cp */,
-				D5DDE00820EC9691004A4F44 /* taskC.cp */,
-			);
-			path = 493d2;
-			sourceTree = "<group>";
-		};
-		D5E3B21E2022AB99006E3D62 /* abc087 */ = {
-			isa = PBXGroup;
-			children = (
-				D569F07F201EBF17002721B9 /* taskA.cc */,
-				D569F080201EBF17002721B9 /* taskB.cc */,
-				D569F081201EBF17002721B9 /* taskC.cc */,
-				D569F079201EBDBB002721B9 /* taskD.cc */,
-				D5E3B21F2022ABB8006E3D62 /* taskE.cc */,
-			);
-			path = abc087;
-			sourceTree = "<group>";
-		};
 		D5E3B2212022AC1A006E3D62 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				D5E3B2272022AC33006E3D62 /* 48.cc */,
-				D5E3B2262022AC33006E3D62 /* 155.cc */,
-				D5E3B2242022AC33006E3D62 /* 206.cc */,
-				D5E3B2222022AC33006E3D62 /* 207.cc */,
-				D5E3B2232022AC33006E3D62 /* 221.cc */,
-				D5E3B2252022AC33006E3D62 /* 238.cc */,
-				D5C7C6DF2024626F00B3F4C5 /* 49.cc */,
-				D5E4F02920257FCA00B9F050 /* 740.cc */,
-				D551611320267C5400CC7DEA /* 775.cc */,
-				D5390CB4202BD39900199DD5 /* 16.cc */,
-				D5390CB6202BEE6D00199DD5 /* 46.cc */,
-				D59EBF0420537279009AED02 /* 389.cc */,
-				D59EBF072053747F009AED02 /* 390.cc */,
-				D5C9A18E2083DE2C00066249 /* 818.cp */,
-				D568888920CBA60B001355FA /* 847.cp */,
-				D59EBF172054C60B009AED02 /* practice.cp */,
+				D59EBF172054C60B009AED02 /* leetcode.cp */,
 				D568888720CB9116001355FA /* parser.cp */,
 			);
 			path = leetcode;
-			sourceTree = "<group>";
-		};
-		D5E3B22F2022F64A006E3D62 /* 460d2 */ = {
-			isa = PBXGroup;
-			children = (
-				D5E3B2332022F660006E3D62 /* taskA.cc */,
-				D5E3B2352022F98E006E3D62 /* taskB.cc */,
-				D5E3B2372022FC44006E3D62 /* taskC.cc */,
-				D5E3B23A202307F2006E3D62 /* taskD.cc */,
-				D5C7C6DD202461DA00B3F4C5 /* taskE.cc */,
-			);
-			path = 460d2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1068,7 +108,7 @@
 		D5A87E85201DC1790038BE28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Robert Paul";
 				TargetAttributes = {
 					D5A87E8C201DC1790038BE28 = {
@@ -1099,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52481F6210958B0008537F0 /* taskF.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,6 +159,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1127,6 +167,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1177,6 +218,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1184,6 +226,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
