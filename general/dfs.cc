@@ -11,16 +11,15 @@ const int N = 10000;
 vector<int> g[N];
 
 int dfs(int cur, int prev) {
-    int size = 0;
-    for(int next : g[cur]) {
-        if (next == prev)
-            continue;
-        size += dfs(next, cur);
-    }
-    return size + 1;
+  int size = 0;
+  for (int next : g[cur]) {
+    if (next == prev) continue;
+    size += dfs(next, cur);
+  }
+  return size + 1;
 }
 
 int main() {
-    dfs(0, -1);
-    return 0;
+  dfs(0, -1);
+  return 0;
 }

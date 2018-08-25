@@ -12,13 +12,15 @@ typedef long long ll;
 template <typename... Args>
 void dbg(Args&&... args) {
   using expander = int[];
-  (void)expander {0,(static_cast<void>(void(cout << std::forward<Args>(args) << " ")), 0)...};
+  (void)expander{
+      0,
+      (static_cast<void>(void(cout << std::forward<Args>(args) << " ")), 0)...};
   cout << endl;
 }
-void gen() {exit(0);}
+void gen() { exit(0); }
 
 class Solution {
-public:
+ public:
   vector<vector<int>> subsets(vector<int>& nums) {
     vector<vector<int>> ans;
     int n = (int)nums.size();

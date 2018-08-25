@@ -12,20 +12,20 @@ int k[N];
 int s[N];
 
 int find(int x) {
-    while (x != k[x]) x = k[x];
-    return x;
+  while (x != k[x]) x = k[x];
+  return x;
 }
 
 void unite(int a, int b) {
-    a = find(a);
-    b = find(b);
-    if (s[a] < s[b]) swap(a,b);
-    s[a] += s[b];
-    k[b] = a;
+  a = find(a);
+  b = find(b);
+  if (s[a] < s[b]) swap(a, b);
+  s[a] += s[b];
+  k[b] = a;
 }
 
 int main() {
-    forn(i, 0, N) k[i] = i;
-    forn(i, 0, N) s[i] = 1;
-    return 0;
+  forn(i, 0, N) k[i] = i;
+  forn(i, 0, N) s[i] = 1;
+  return 0;
 }
