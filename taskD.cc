@@ -16,11 +16,7 @@ void dbg(Args &&... args) {
 }
 void gen() { exit(0); }
 
-void input() {
-  int n;
-  scanf("%d", &n);
-  dbg(n);
-}
+void input() {}
 
 void solve() {}
 
