@@ -6,27 +6,36 @@ using namespace std;
 #define pll pair<ll, ll>
 typedef long double ld;
 typedef long long ll;
-template <typename... Args>
-void dbg(Args &&... args) {
+template <typename... Args> void dbg(Args &&... args) {
   using expander = int[];
   (void)expander{
       0,
       (static_cast<void>(void(cout << std::forward<Args>(args) << " ")), 0)...};
   cout << endl;
 }
-void gen() { exit(0); }
+void gen() {
+  exit(0);
+}
 
-void input() {}
+void input() {
+}
 
-void solve() {}
+void solve() {
+}
 
 int main() {
 #ifdef DEBUG
   freopen("input", "r", stdin);
-//  freopen("output", "w", stdout);
-//  gen();
-#endif
+  // freopen("output", "w", stdout);
+  // gen();
+  while (!feof(stdin)) {
+    input();
+    solve();
+    scanf(" ");
+  }
+#else
   input();
   solve();
+#endif
   return 0;
 }
