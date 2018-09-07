@@ -23,19 +23,22 @@ void input() {
 void solve() {
 }
 
+void clean() {
+  scanf(" ");
+}
+
 int main() {
 #ifdef DEBUG
   freopen("input", "r", stdin);
   // freopen("output", "w", stdout);
   // gen();
   while (!feof(stdin)) {
+#endif
     input();
     solve();
-    scanf(" ");
+#ifdef DEBUG
+    clean();
   }
-#else
-  input();
-  solve();
 #endif
   return 0;
 }
